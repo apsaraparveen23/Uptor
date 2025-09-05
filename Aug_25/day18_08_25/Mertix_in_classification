@@ -1,0 +1,20 @@
+y_test        y_prediction
+0              0
+1              1
+1              0
+1              0
+0              1
+1              1
+
+Confusion_matrix:
+         [[2,2],
+          [1,1]]
+            Prediction
+            |True |    False|
+test  True  |2    |    2    |
+      False |1    |    1    |
+
+True and True  is TruePositive(TP)
+True and False is FalseNegative(FN)
+False and True is FalsePositive(FP)
+False and False is TrueNegative(TN)

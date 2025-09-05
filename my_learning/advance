@@ -1,0 +1,59 @@
+1>isnull().sum()
+- df.isnull() returns a DataFrame of True/False values where True indicates a missing value (NaN).
+- sum() adds up the True values (treated as 1),
+giving the count of missing entries per column.
+
+2>isnull().sum().sum()
+This adds up all nulls across every column and row.
+
+3>isna().sum()
+to detect missing values (like NaN, None, or pd.NA) in a DataFrame or Series.
+It returns a boolean mask showing True where data is missing and False elsewhere.
+
+4>isna().sum().sum()
+In PyCharm, using df.isna().sum().sum() is a powerful one-liner to count all missing values
+across an entire pandas DataFrame.
+
+5>fillna
+But if your carat column is supposed to contain numeric values, inserting
+"hello" (a string) can change the data type of the entire column to object,
+which might mess with future calculations or plots.\
+
+instead use
+
+df['carat'] = df['carat'].fillna(df['carat'].mean())  # fills with average value
+
+6>asType(float):to convert non numeric data to float
+df[col_name]=df[col_name].asType(float)
+
+7>Simple imputer is tool from scikit learn lib to handle null data/missing data
+
+8>why does simple imputer uses double square bracket even if single column is their?
+Ans: SimpleImputer.fit_transform() needs this 2D shape to work correctly.
+ df[['carat']] → Returns a - pandas DataFrame.
+df['carat'] → Returns a panda series
+
+*si = SimpleImputer()
+creating an imputer object
+
+Scikit-learn transformers like SimpleImputer, StandardScaler, etc.,
+are designed to work with 2D arrays because they often operate on multiple features (columns).
+Even if you're working with just one column, you still need to preserve the 2D structure.
+
+ What SimpleImputer Can Handle
+
+SimpleImputer from sklearn.impute is versatile
+
+ it can handle both numerical and categorical data.
+ The key is choosing the right strategy based on the data type.
+
+Numerical data:'mean', 'median', 'most_frequent', 'constant'
+categorical data:'most_frequent', 'constant'
+
+"""simple imputer with categorical data
+ravel or squeeze can be used because after applying simple imputer
+o/p will be in 2d array but panadas need 1D arary series"""
+
+
+
+

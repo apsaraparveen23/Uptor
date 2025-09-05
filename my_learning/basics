@@ -1,0 +1,41 @@
+1> In pandas, when you see object as the data type for a column, it generally means that the
+column holds textual or mixed data.
+- You often need to convert object columns to proper types for analysis:
+- Text data → category for efficient memory usage.
+- Numeric-looking text → int or float.
+- Date strings → datetime.
+
+2>To drop column we use axis=1
+and syntax is
+df.drop("column name",axis=1,inplace=True)
+print(df.column)
+3>To drop rows we use axis=0
+df.drop("row number",axis=0,inplace=True)
+print(df)
+axis=1 for column
+axis=0 for rows
+Note: inplace= True means original data is directly uploaded without creating a new copy
+
+3>.loc[] is a label-based indexer used to select rows and columns from a DataFrame by their names, not by position.
+
+4>unique()
+It returns a NumPy array of all the distinct values in a pandas Series (i.e., a single column of a DataFrame).
+
+5>value_counts()
+In PyCharm, you can use from pandas to count how often each unique value appears in a column.
+ It’s one of the most useful tools for quick data exploration.
+
+6>nunique()
+In PyCharm, the nunique() method from pandas is a powerful tool for counting the number of distinct values
+in a Series or DataFrame. It’s perfect for quick insights during data exploration.
+
+7>info()
+getting a quick summary of a DataFrame.(like total no rows,data type,memory usage,non null counts,index & column names)
+It’s like a snapshot of your dataset’s structure—super useful when you're exploring or debugging.
+
+8>describe()
+In PyCharm, the describe() method from pandas is your shortcut to understanding the statistical summary
+of your dataset. It’s like a mini report card for your DataFrame.
+
+
+

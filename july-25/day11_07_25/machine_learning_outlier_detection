@@ -1,0 +1,27 @@
+In machine learning, outlier detection is the process of finding data points
+that are significantly different from the majority of the data.
+ These unusual points are called outliers.
+
+Example:
+
+Suppose you have students’ test scores: [35, 40, 38, 42, 95].
+Here, 95 is much higher than the rest. It’s an outlier.
+
+
+why outlier is important
+
+Data quality – Outliers may come from errors (e.g., wrong entry, faulty sensor).
+
+Model accuracy – Outliers can mislead machine learning models and reduce performance.
+
+Insights – Sometimes outliers reveal rare but important events
+ (like fraud in banking or a sudden disease in medical data).
+
+
+Methods of Outlier Detection:
+
+Statistical methods – Z-score, IQR (interquartile range).
+
+Machine learning methods – Isolation Forest, One-Class SVM, DBSCAN.
+
+Visualization – Box plots, scatter plots help spot unusual values.

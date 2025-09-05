@@ -1,0 +1,30 @@
+Differnce between isna and is null
+both are functionally same
+
+ is null--> command python created initially
+
+ is na--> not avaailble.latest commamd used in python
+
+
+ 2 if their is empty data(like isna true),what is next step
+ subjective- as appropriate,it can be dropped or filled.
+ if we drop the data,the whole row will be dropped
+
+
+ simple imputing:concept of filling the empty data
+ it can be done through panndas scikit
+
+ from sklearn.impute import SimpleImputer
+ to run the above import u have to unstall the foll
+ pip install scikit-learn
+
+ si=SimpleImputer()
+df['carat']=si.fit_transform(df[['carat']])
+print(df)
+above three lines will help us in filling cartat column with mean of the same column
+Note:default filling of the simple imputer is mean
+
+small filling data go to pandas
+large filling of data go to simpleimputer(sckit)
+
+big dataset=sckit(needed for pipe line mode

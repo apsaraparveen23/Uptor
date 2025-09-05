@@ -1,0 +1,25 @@
+🔍 What is StandardScaler() Doing?
+The StandardScaler transforms your data so that:
+- Mean = 0
+- Standard deviation = 1
+This is called standardization.
+It’s especially useful when features are on very different scales (e.g., price vs. carat size), and you want your model to treat them equally.
+
+🧪 Example: Diamonds Dataset
+Let’s say your dataset looks like this:
+carat    price
+0.5      1000
+1.0      2000
+1.5      1500
+If you run a regression without scaling, the model might think price is more important just because its values are bigger.
+After Standardization:
+carat    price
+0.5      -1.2
+1.0     1.0
+1.5      1.2
+
+Now both features are on the same scale, and the model can learn true relationships, not just react to magnitude.
+
+MinMax_Scaler:
+- MinMaxScaler does not force the mean to 0 or the standard deviation to 1.
+- After MinMax scaling, the 'price' values are compressed into the range [0, 1].

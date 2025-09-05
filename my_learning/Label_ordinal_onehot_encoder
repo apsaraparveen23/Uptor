@@ -1,0 +1,60 @@
+Choosing between OrdinalEncoder, LabelEncoder, and OneHotEncoder depend
+s on the nature of your categorical data and the model you're using
+
+OrdinalEncoder
+
+Categories have a meaningful order or ranking
+output will be in integers 1,2.,3...,
+eg:Low, Medium, High
+
+- Your feature has a natural order (e.g., satisfaction levels, education tiers).
+- You want to preserve that order for models that can interpret it (like decision trees or linear models).
+- You're encoding multiple columns with ordered categories.
+
+LabelEncoder
+
+You’re encoding a single target variable (not features)
+output will be in integers 1,2.,3...,
+eg:Dog, Cat, Fish (target)
+
+- You’re encoding the target variable (y) in classification problems.
+- You only need to convert labels to integers for model training.
+
+OneHotEncoder transforms categorical variables into binary columns—one column per category,
+with 1 indicating presence and 0 absence.
+🧠 Analogy: Imagine each category gets its own light switch. Only one switch is "on" at a time.
+
+
+OneHotEncoder
+
+Categories are nominal (no order) and used as features
+output will be in Binary columns
+eg:Red, Blue, Green
+Red = [1,0,0], Blue = [0,1,0], Green = [0,0,1].
+
+- Your categorical feature has no inherent order.
+- You want to avoid misleading the model with artificial rankings.
+- You’re working with algorithms sensitive to numeric relationships
+ (e.g., linear regression, logistic regression).
+
+Very important
+df['color'] = one_hot_encoder.fit_transform(df[['color']])
+will actually raise an error or behave unexpectedly
+because:
+OneHotEncoder.fit_transform() returns a NumPy array (or sparse matrix), not a pandas Series.
+So trying to assign it directly to a single column like df['color'] will break things because:
+- You're trying to squeeze multiple columns (one per category) into one column.
+- The shape of the output doesn't match the shape of the original column.
+
+
+#Concatenate the encoded data to the data frame and drop the cut in the final output
+
+Note:
+sparse_output=True (default)
+1.Stores the result as a sparse matrix (only non-zero values are stored)
+
+sparse_output=False
+1.Stores the result as a dense NumPy array (all values, including zeros)
+
+
+

@@ -1,0 +1,125 @@
+Featuring scaling:Transforming one numerical form of data to another numerical form
+
+In scenarios like -when visualizing the data of olympic medals between Us & Nepal
+the data range difference is huge to scale it in a view,so  we encode the numerical data to fit in thw view
+
+2>Feature scaling is of 2 type"
+
+1.Normalization:This is  a process of converting existing numerical data in to normalized data.
+The term 'Normalized data' means distribution of data falls under normal distribution
+from sklearn.preprocessing import MinMaxScaler
+
+output will be alwyas between 0to+1
+
+2>Standardization
+This is  a process of converting existing numerical data in to normalized data.
+The term 'standardised data' means distribution of data falls under normal distribution
+.output will be alwyas between -1 to+1
+
+from sklearn.preprocessing import StandardScaler
+Notes:Data generally forms under 2 kind of distribution
+1.Normal dis:Based on mean/avg(sin wave/bell curve)
+2.Uniform dist:Based upon equally spread data on flat scale(rectangle)
+
+Analogy for normal distribution:
+student can distribute above and below avg
+analogy for uniform dist
+students are distributed departments(no specification)
+
+When we should go feature scaling:
+For the models that use distant based manipulation
+Eg:KNN(K nrearest Neighbour),Kmeans clustering
+
+Metrics
+Types of Model:
+1.Regression
+    1.1 Metric evaluation:
+       1.1.1 r2_score
+             Expected value for the r2_score should be 0 to 1
+             poor accuracy=0.01 to 0.75
+             good accuracy=greater than 0.75
+             over fitting=1.0
+    1.1.2:mean_squared_error
+          Expected value is as less as possible
+       Note:This mean_squared_metrics cant be applied for all dataset
+       Detailing 1(customer_review)
+            customer_review
+            ---------------
+            y_test   y_predict    Difference    squarred_difference
+            5         4.45            0.54        0.2916
+            4         5                -1          1
+            5         4.5              0.5         0.25
+            1         0.5               0.5        0.25
+            2         2.5              -0.5         0.25
+                                                  Total
+                                                  ------
+                                                  2.0416/5=0.40832
+        Detailing 2:(House price)
+        Housing_price
+            ---------------
+            y_test   y_predict    Difference    squarred_difference
+            5000        4500            500       250000
+            4000       4100             -100      10000
+            5000       4800              200       40000
+            1000        1000             0           0
+            2000         2200           -200       40000
+                                                  Total
+                                                  ------
+                                                  34000/5=68000
+           for difference between y_test and y_predict is small mean_squared model is fitted.
+2.Classification
+        2.1:accuracy_score
+        2.2:conclusion_matrix
+        2.3:classification_report
+        2.4:precsion
+        2.5:fi_score
+        2.6:recall
+
+why model should be trained and tested?
+
+when we fit (training) the mode with
+complete x and y data, model may end up in over fitting.
+so to avoid over fitting we split data into 70:30 or 80:20 ratio
+
+How do we know whether the data is over fit or underfit
+This model underfitting or overfitting can be found by metrics evaluation
+Any accuracy with exact 1.0 output is overfitting
+Any accuracy with exact 0.0 output is underfitting
+
+How to overcome this underfitting and overfitting
+This can be overcome by concept of regularization.
+L1.Regularization(lasso)-For over fitting
+L2.Regularization(ridge)-For underfitting
+
+Note:
+     This regularization can be applied only on the non parametric model.
+
+What is parametric model?
+A model that assumes the column based linear relationship is said to be parametric
+Non Parametric(Linear regression ,Logistic regression & naive bayes).
+A model that assumes the column based linear relationship and also row based importance
+(Tree based Model,KNN).
+
+Note:Parametric-Based on parametric distribution.
+     Non-parametric-Distribution free.
+
+What should we do for poor accuracy score(0 to 0.5)?
+
+Method1:Cross validation
+
+1.Check the data set sampling,It picks the data randomly so,sometimes
+trained data might be poor and test data will be strong.It tends to give poor accuracy.
+2.To overcome above issue ,we should cross validate data
+3.The cross validation will do different sampling with different subset.
+4.Let say,CV=5(means,my dataset will be having 5 different samplings).
+5.Each sample will produce accuracy score.
+6.[0.9,0.89,0.91,0.9,0.88]
+7.from the above sample output,it is very evident that model is performing same subsets
+   7.1. If in  this case,CV=5 produce poor accuracy score .so it is very
+        evident that model is performing poorly with different subset.
+   7.2  [0.9,0.3,0.89,0.35,0.9]
+   7.3 Now here two results producing poor accuracy score.so it is very
+       evident that model is performing poorly with different subset.
+   7.4Now we conclude that dataset is not worth for accuracy
+
+

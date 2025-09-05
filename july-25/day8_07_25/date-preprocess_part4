@@ -1,0 +1,37 @@
+Data Wrangling :
+It  is a process of doing the transformation of our data from one form to another form.
+
+Transformation includes:
+1.Categorical data to numerical data.
+  Categorical data is data which is not numeric and generally called
+  as object in data frame
+2.Existing numerical data to to standarized or normalized data.
+3.Extracting new column and transforming  it.Eg we can make a new column  from two column )
+(datetime column from date and  time column)
+
+
+Categorical to Numerical data Conversion:
+
+Libraries used for transformation
+1.Pandas
+2.sklearn(scikit-learn)
+
+Specific Function:
+pandas.get_dummies()
+pandas.map()
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import OrdinalEncoder
+from sklearn.preprocessing import OneHotEncoder
+
+
+Numerical to Standardized data
+
+Libraries used for transformation
+1.Pandas
+2.sklearn(scikit-learn)
+
+Specific Function:
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+
+

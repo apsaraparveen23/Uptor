@@ -1,0 +1,40 @@
+One Hot encoder:
+Player          Team
+Dhoni           CSK
+Kholi           RCB
+Rohit           MI
+Raina           CSK
+Gill            GT
+
+Under team,we have 4 categories(4 teams)
+when we encode category to no the numbering  can be random
+
+In one hot encoding -we get to number in a order
+
+Label encoding(random no mapping while encoding)
+Player          Team
+Dhoni           0
+Kholi           1
+Rohit           2
+Raina           0
+Gill            3
+
+One Hot encoding(retains the team column,creates new column for each category and binaries in it)
+
+Player          Team   CSK   RCB   MI   GT
+Dhoni           CSK    1     0     0    0
+Kholi           RCB    0     1     0    0
+Rohit           MI     0     0     1    0
+Raina           CSK    1     0     0    0
+Gill            GT     0     0     0    1
+
+* Use Label Encoding only if the model understands ordinal features
+ (like decision trees), or if the feature truly has order.
+ Otherwise, go with One-Hot Encoding for categorical features
+ like product types, locations, brands, etc.
+
+If more rows .go for onr hot encodingusing sckit learn
+for less rows we cam go for one hot encoding using pandas
+
+In sckit we have a concept called pipe line concept
+Pipeline-all functions of sckit can be grouped together

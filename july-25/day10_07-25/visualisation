@@ -1,0 +1,35 @@
+Visualisation is a concept of representing data in the form of graph
+why -it is easier to understand thr graph view than the data view
+
+Libraries for visualiation
+1.matplotlib(primary)
+2.seaborn(primary)
+3.plotly
+4.dash
+
+Types of visual:
+1.univariate
+Only one colum is needed
+2.bi variate
+two col are  needed
+
+Note:
+*Generally graph used in visu is 2 Dimensional data
+*Vis can be applied in any phase of model
+*one of the preprocess concept of machine learning is EDA(exploratory  data analysis)
+*EDA can be used for finding outliers(abnormal data)
+and many more applications like this.
+(Eg:extreme nos(unrealistic)while plotting graph can be easily seen thr graph)
+
+Range for the data plotting in graph can be arrived thr different ways like percentile,quantile %
+outliers are generally plotted thr box plot(which uses the above mathematical models)
+
+Types of plot:
+(applicable fo seaborn &matplotlib)
+1.scatter plot(Nos vs no)
+2.Box plot(univariate -numerical data)
+3.Pie chart(numerical vs categorical-percentage based)
+4.Bar plot( categorical-numerical)
+5.Heat Map(Correlation-any column variants)(shows the relation ship between 2 features
+if they are positively/negatively correlated thr color diff in heat map
+dark colr-more correlated and vice versa

@@ -1,0 +1,11 @@
+How to find only the columns which is having object as data type?
+object_columns=[]
+
+"""To extract the object type"""
+
+
+for col in columns:
+    if df[col].dtype=='O':
+        object_columns.append(col)
+
+print(object_columns)

@@ -1,0 +1,66 @@
+#Introduction to Decision Trees
+
+Decision trees are a popular supervised learning algorithm that are used
+for both classification and regression problems.
+
+They are called decision trees because they represent a tree-like model decisions
+and their possible consequences.
+
+The algorithm starts with a single node,called the root,
+and recursively splits the data into smaller and smaller subsets based
+on the feature that provides the most information gain.
+
+Each split results in a new node in the tree,and the process continues until a stopping criterion is met
+
+such a maximum tree depth or
+a minimum number of samples in a leaf node.
+
+For classification:
+
+In classification problems,each node of the decision tree represents a class label,
+the decision tree represents a class label,
+
+and the goal is to predict the class of a new data point by traversing the tree from the root to a leaf node.
+
+For Regression:
+
+In regression problems, each leaf node represents a predicted value,
+and the goal is to predict the value of a
+new data point based on its features.
+
+The beauty of decision trees is their interpretability:
+
+the structure of the tree represents the relationships between the features and the target variable, and the tree can be visualized and easily explained to stakeholders.
+
+Draw back:
+
+they are prone to overfitting, especially when the tree becomes very deep and complex.
+
+To prevent overfitting,
+
+several techniques have been developed,
+
+such as pruning the tree, early stopping, and
+
+ensemble methods like Random Forest(new model) and Gradient Boosting(new model)
+
+In this file, we will learn the basics of decision trees and see how they can be implemented in Python using the scikit-learn library. We will also discuss the various parameters that can be tuned to improve the performance of decision trees and see how to evaluate the performance of a decision tree model.
+
+
+
+===========
+
+The decision tree ensemble methods are a type of ensemble learning technique that combines multiple decision trees to improve the overall accuracy and stability of the model. There are several algorithms that fall under this category, including:
+
+1. **Random Forest:** This is one of the most popular decision tree ensemble methods. In a random forest, multiple decision trees are trained on different random subsets of the training data and the results are combined through voting or averaging.
+
+2. **Bagging (Bootstrap Aggregating):** This is another popular decision tree ensemble method that trains multiple decision trees on different random subsets of the training data, but unlike random forest, all the trees are trained on the same features.
+
+3. **Boosting:** Boosting is an iterative algorithm that trains decision trees one after the other, where each tree tries to correct the errors made by the previous tree. There are several boosting algorithms, including Adaboost and Gradient Boosting.
+
+4. **Stacking:** Stacking is an ensemble method that trains multiple models, including decision trees, and combines their predictions through a meta-model.
+
+These decision tree ensemble methods have been proven to provide better results than single decision trees, as they reduce overfitting, increase stability, and improve the overall accuracy of the model. They are widely used in a variety of machine learning applications, including image classification, natural language processing, and recommendation systems.
+
+
+

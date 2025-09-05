@@ -1,0 +1,20 @@
+1.Github is the tool for maintaining version for the project.
+2.There are various other version  tool control in market.
+  2.1 svn
+  2.2tfs
+  2.3github
+3.Github is available in 2 different version
+ 3.1 Normal version
+     It is a open source,everybody can use it.
+ 3.2 Enterprise version
+      It is a licensed version generally companies will buy it.
+      Note: Enterprise version has extra features.
+
+ 4.Structure of Github
+   4.1 Create a sign in for github
+   4.2 Create a desktop version for easy usage.
+ 5 Version control of the code can be done using following methods.
+   5.1 Directly via Tool option
+   5.2 Via CLI commands.
+   5.3 Via Github desktop
+   5.4 Via Github shell.

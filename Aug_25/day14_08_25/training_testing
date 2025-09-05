@@ -1,0 +1,44 @@
+1990 20000
+1991 21000
+1992 22000
+1993 23000
+1994 24000
+1995 25000
+1996 26000
+1997 27000
+1998 28000
+1999 29000
+
+70% training(fit) 30% testing(predict)
+
+from sklearn.model_selection import train_test_split
+x_train.x_test,y_train,y_test=
+tarin_test_split(x,y,tain_size=0.7)
+
+x_train  y_tarin
+1990 20000
+1991 21000
+1992 22000
+1996 26000
+1997 27000
+1999 29000
+
+x_test  y_test
+1993    23000
+1995    25000
+1998  28000
+
+Model=LinearRegression()
+model.fit(x_train,y_train)
+
+
+y_predict=model_predict(x_test)
+
+y_predict=[22900,24999,28000]
+y_test=[23000,25000,,28000]
+
+from sklearn.metrics import r2_score
+final_accuracy_check=r2_score(y_test,y_predict)
+
+#result will be between 0 to 1
+anything above 0.75 is said to be good model

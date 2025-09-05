@@ -1,0 +1,72 @@
+| Weather  | Pitch | Humidity | Play |
+| -------- | ----- | -------- | ---- |
+| Sunny    | Dry   | High     | No   |
+| Sunny    | Dry   | Normal   | Yes  |
+| Overcast | Damp  | High     | Yes  |
+| Rainy    | Damp  | High     | No   |
+| Rainy    | Dry   | Normal   | Yes  |
+| Overcast | Dry   | Normal   | Yes  |
+| Sunny    | Damp  | Normal   | No   |
+
+
+Tree:
+
+                     [Weather]  -----------------> Parent Node (Criteria - Information gain - Gini impurity and entropy)
+                    /    |     \
+             Sunny  Overcast  Rainy -------------> Children of the Parent Node
+              /        |        \
+      [Humidity]     Yes     [Pitch] ------------> Child Node but it is  Parent to another child
+         /   \                  /   \
+     High   Normal         Damp    Dry ---------> Child Node that leads to final Decision
+      |        |             |       |
+     No       Yes           No      Yes --------> Final Node (Leaf)
+
+HyperParameter:
+
+max_depth: Weather ---> Rainy ---> Pitch ---> Dry ---> Yes
+
+
+Weather ----> Rainy
+Rainy   ----> Pitch
+Pitch   ----> Dry (YEs or No ) is Child node so it is now leaf
+
+Now, we can see it is having 3 max_depth.
+
+min_samples_split:
+
+min_samples_split = 4
+
+| Weather  | Pitch | Humidity | Play |
+| -------- | ----- | -------- | ---- |
+| Sunny    | Dry   | High     | No   |
+| Sunny    | Dry   | Normal   | Yes  |
+| Overcast | Damp  | High     | Yes  |
+| Rainy    | Damp  | High     | No   |
+| Rainy    | Dry   | Normal   | Yes  |
+| Overcast | Dry   | Normal   | Yes  |
+| Sunny    | Damp  | Normal   | No   |
+
+Weather
+├── Sunny     → 3 samples
+├── Overcast  → 2 samples
+└── Rainy     → 2 samples
+
+----------
+
+n_jobs = -1
+
+-1 ---> Use all nodes of your system
+1  ---> use only one core
+2 ---> use two core
+
+min_samples_leaf:
+
+the number of final leaf each node should have
+
+min_samples_leaf ---> it wil ony consider the node which has
+minium 2 leaf results
+
+Index	Weather	Pitch	    Humidity	    Play
+0	    Sunny	Dry	        High	    No
+1	    Sunny	Dry	        Normal	    Yes
+6	    Sunny	Damp	    Normal	    No

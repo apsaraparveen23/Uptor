@@ -1,0 +1,35 @@
+Load iris :
+
+It is one of the data set which is available by default
+inside scikit-learn library
+
+Similar to load_iris, we have lot of other dataset as well.
+
+from sklearn.datasets import load_iris
+
+Above line is to load that dataset in our program
+
+usually we know we need two things
+
+x and y
+
+x  and y can be taken from this syntax
+
+X = iris.data #this line will all the feature data
+y = iris.target # this line will have target data
+
+sepal_lenth  sepal_width petal_length petal_width   class
+90              89          34          45          virginica
+88              77          89          34          Versicolor
+88              88          77          22          Setosa
+
+Bascially:
+
+Load_iris() is the dataset for classification.
+
+Target is "versicolor", "virginica" and "setosa"
+
+all three were types of flowers. So each flowers can be identified by using
+four important feature
+
+Feature is "sepal_length" "sepal_width" "petal_length" "petal_width"

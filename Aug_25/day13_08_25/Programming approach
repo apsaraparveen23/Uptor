@@ -1,0 +1,16 @@
+yr      house price
+1990   1000
+1991   2000
+1993   3000
+1994    4000
+
+house price is dependent data or feature data or input data
+Year is independent data or target data or output data
+
+By seeing the above list, we can conclude that data is linear
+
+so year increases so to the price.
+
+Now,model can able to read the history on its linearly and it can
+be used for prediction.
+
