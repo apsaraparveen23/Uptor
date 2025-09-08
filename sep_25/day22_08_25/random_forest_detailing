@@ -1,0 +1,37 @@
+Random forest is another supervised machine learning algorithm
+
+Random forest algorithm can be used for 2 different type
+
+Type-1:
+    Random forest classifier
+Type-2:
+    Random forest regressor
+
+Random forest algorithm is called as ensemble learning
+
+Random forest is the combination of multiple decision tree and
+each tree will have random subset of data.
+
+Process of finding the random subset of data is called bootstrap sample
+
+When to go for Random forest?
+1. I want high accuracy of output
+2. I don't want over fitting
+3. Non linear data
+
+Problems
+1. little complex in structure
+2. little slower in process
+
+Analogy
+
+Step-1: Packet full of fruits
+Step-2: Apply random forest with 5 trees
+Step-3:
+    3.1 Tree 1 - Apple
+    3.2 Tree 2 - Apple
+    3.3 Tree 3 - Mango
+    3.4 Tree 4 - Mango
+    3.5 Tree 5 - Apple
+Step-4: Final decision will be based on majority votes
+Step-5: As per the above tree Apple is the final decision, because it has more votes.
