@@ -21,6 +21,16 @@ param_grid = {
     'n_estimators' : [10, 20, 30],
 }
 
+param_dist = {
+    'n_estimators': [100, 200, 300, 500],        # number of trees
+    'max_depth': [None, 10, 20, 30, 50],         # max depth of trees
+    'min_samples_split': [2, 5, 10],             # min samples to split a node
+    'min_samples_leaf': [1, 2, 4],               # min samples at leaf
+    'max_features': ['sqrt', 'log2'],            # features considered per split
+    'bootstrap': [True, False],                  # bootstrap sampling
+    'class_weight': [None, 'balanced', 'balanced_subsample']  # imbalance handling
+}
+
 model = RandomForestClassifier(n_estimators=10) # n_estimators basically to determine how many decision tree to form
 model.fit(X_train, y_train)
 
