@@ -6,6 +6,11 @@ from sklearn.model_selection import train_test_split, cross_val_score
 df = pd.read_csv('creditcard_for_random_Forest.csv')
 # print(df.head(10))
 
+print("NaN in target column:", df['Class'].isna().sum())
+print("NaN in features:\n", df.isna().sum())
+df = df.dropna(subset=['Class'])
+df = df.fillna(0)
+
 target_finding = df['Class'].unique()
 # print(target_finding)
 

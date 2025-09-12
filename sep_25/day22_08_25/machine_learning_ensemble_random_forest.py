@@ -24,6 +24,7 @@ rf_clf.fit(X_train, y_train)
 for x, tree in enumerate(rf_clf.estimators_):
     plt.figure(figsize=(12, 8))
     plot_tree(rf_clf.estimators_[x], feature_names=iris.feature_names, class_names=iris.target_names, filled=True)
+    plt.savefig(f"tree_{x}.png")
     plt.show()
 
 """random forest is called bagging (bootstrapping sampling)"""
