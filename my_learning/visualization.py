@@ -1,16 +1,16 @@
-# import pandas as pd
-# import matplotlib.pyplot as plt
-#
-# df=pd.read_csv("diamonds.csv")
-# print(df.columns)
-#
-# "Scatter Plot"
-# sample_df = df.sample(1000, random_state=42)  # Pick 1000 random rows
-# plt.xlabel('carat')
-# plt.ylabel('price')
-# plt.scatter(sample_df['carat'], sample_df['price'], color='blue', alpha=0.6)
-# plt.show()
-#
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df=pd.read_csv("diamonds.csv")
+print(df.columns)
+
+"Scatter Plot"
+sample_df = df.sample(1000, random_state=42)  # Pick 1000 random rows
+plt.xlabel('carat')
+plt.ylabel('price')
+plt.scatter(sample_df['carat'], sample_df['price'], color='blue', alpha=0.6)
+plt.show()
+
 # "Bar plot"
 # avg_price_by_cut = df.groupby('cut')['price'].mean().sort_values()
 # avg_price_by_cut.plot(kind='bar', color='purple')

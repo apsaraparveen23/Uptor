@@ -1,0 +1,45 @@
+Problem Statement: Predicting Customer Purchase Behavior
+
+This problem can be approached by:
+
+1. Regression
+
+Objective:
+
+Predict how much money a customer will spend.
+
+Example: If a customer has high income, visits the website often, and responded to campaigns,
+the model should predict a higher purchase amount.
+
+Target :PurchaseAmount
+
+Input Features :Age, Gender, AnnualIncome, WebsiteVisits,
+TimeOnApp, PreviousPurchases, CampaignResponse, LoyaltyPoints, PreferredDevice, Region.
+
+Algorithm used:
+
+Linear Regression → simple, easy to understand.
+
+2. Classification
+
+Objective:
+
+Predict whether a customer will make a purchase (Yes/No).
+
+Example: If a customer has low visits and no campaign response, the model should predict No Purchase.
+
+Target:PurchaseDecision (Yes or No).
+
+Input Features:Age, Gender, AnnualIncome, WebsiteVisits,
+TimeOnApp, PreviousPurchases, CampaignResponse, LoyaltyPoints, PreferredDevice, Region
+
+Algorithm used
+
+i)Logistic Regression → simple, good starting point.
+
+ii)Decision Tree Classifier
+
+The Decision Tree learns rules from customer information (like age, income, and previous purchases)
+to decide if a customer is likely to buy.
+
+I also applied hyperparameter tuning (changing tree depth, minimum samples, etc.) to improve accuracy.

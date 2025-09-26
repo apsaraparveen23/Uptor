@@ -22,5 +22,6 @@ model.fit(x_train,y_train)
 y_predict=model.predict(x_test)
 
 print(y_predict)
+print('-------------------')
 accuracy_check=r2_score(y_test,y_predict)
 print(accuracy_check)

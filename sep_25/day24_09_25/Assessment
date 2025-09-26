@@ -1,0 +1,78 @@
+Problem Statement: Predicting Customer Purchase Behavior
+
+A retail company wants to understand customer behavior to improve marketing campaigns and increase sales.
+The company has historical data about its customers, including demographics, income, online activity,
+and past purchases.
+
+The goal is to build a predictive model that estimates the likelihood or value of a customer’s purchase.
+
+This problem can be approached as:
+
+Regression → Predict the purchase amount (continuous value).
+
+Classification → Predict whether the customer will make a purchase (Yes/No).
+========================================================================================
+1. Define the Objective
+
+Regression → Predict customer purchase amount.
+
+Classification → Predict purchase decision.
+
+--------------------------------------------------------------------
+
+2. Dataset Description
+
+Features (X): Age, Gender, Annual Income, Website Visits, Time on App, Previous Purchases, Campaign Responses, etc.
+
+Target (y):
+
+Continuous (₹ purchase amount) for regression.
+
+Binary (Yes/No purchase) for classification.
+
+-----------------------------------------------------------------------
+
+3. Data Preprocessing
+
+Handle missing values.
+
+Encode categorical variables (Label/OneHot Encoding).
+
+Scale/normalize numerical features if required.
+
+Split dataset into training and test sets.
+
+----------------------------------------------------------------------------
+4. Model Selection
+
+Apply one or more of the following algorithms:
+
+Linear Regression (continuous target).
+
+Logistic Regression (binary classification).
+
+Decision Tree (both regression & classification).
+
+Random Forest (both regression & classification).
+
+-------------------------------------------------------------------------------
+
+5. Model Training
+
+Train the chosen model(s) on the training dataset.
+
+Tune hyperparameters (e.g., max_depth, n_estimators).
+
+-----------------------------------------------------------------------------
+
+6. Model Evaluation
+
+For Regression: RMSE, MAE, R².
+
+========================================
+| Algorithm               | Type           | How It Fits the Problem                                       | Pros                                           | Cons                                       |
+| ----------------------- | -------------- | ------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------ |
+| **Linear Regression**   | Regression     | Predicts purchase amount (₹).                                 | Simple, interpretable.                         | Assumes linearity, sensitive to outliers.  |
+| **Logistic Regression** | Classification | Predicts probability of purchase (Yes/No).                    | Probabilistic, interpretable.                  | Limited with non-linear data.              |
+| **Decision Tree**       | Both           | Splits customers based on rules to predict spend or purchase. | Easy to explain, captures non-linear patterns. | Can overfit without tuning.                |
+| **Random Forest**       | Both           | Uses multiple trees for more robust predictions.              | High accuracy, handles complex data.           | Less interpretable, computationally heavy. |

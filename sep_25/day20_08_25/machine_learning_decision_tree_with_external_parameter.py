@@ -4,12 +4,13 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 import category_encoders as ce
 
-from Aug_25.day14_08_25.machine_learning_linear_regression_csv import x_train
+
 
 column_names = ['buying_price', 'maintenance_cost', 'doors_numbers',
                 'person_number', 'luggage_space', 'safety', 'class']
 df = pd.read_csv("car_evaluation.csv", names=column_names, header=None)
-
+print(df.columns)
+print(df)
 
 label_encoder = LabelEncoder()
 df['class'] = label_encoder.fit_transform(df['class'])

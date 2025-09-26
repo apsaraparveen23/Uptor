@@ -1,0 +1,22 @@
+KNN-K Nearest neighbour
+
+K-number of relationships
+
+KNN is calculated based upon the proximity or closeness
+This Proximity and closeness is decided by distance algorithm
+
+Distance based metrics/formula
+1.Manhatten distance
+2.Euclidean distance
+
+This KNN can be used for both classification and regression.
+
+Note:
+This is one of the non parametric algorithm.
+It is widely for applied for non linear data set.
+
+Parametric is nothing but getting the detail only by its column specific distribution.
+
+Non Parametric never assumes any specific form of data but it checks on overall data range
+
+Elbow method is used to determine K value

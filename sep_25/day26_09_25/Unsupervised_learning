@@ -1,0 +1,21 @@
+Unsupervised learning:
+It is the process of finding the insights or pattern grouping of data set.
+It is the process of working only with independent variable or x data
+
+Types of Unsupervised learning
+1.K-means clustering(grouping)
+   K-Means clustering = a way to group similar things together, when we don’t know the group names in advance.
+   eg:
+   Imagine you have a garden with different flowers.
+   You don’t know their names.
+   But you measure things like height, petal size, and color shade.
+   Here K=3
+  Cluster 1 → Small red flowers
+  Cluster 2 → Tall yellow flowers
+  Cluster 3 → Medium white flowers
+
+Now you want to group similar flowers together without knowing their labels.
+2.Hierarchical clustering
+3.PCA(Principal Component Analysis)
+4.DB scan
+5.TSNE(visualization)

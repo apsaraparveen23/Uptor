@@ -1,0 +1,28 @@
+PCA(Principal Component Analysis)
+
+It Comes under pre-process
+It is nothing but the process of reducing dimension(column) to low dimension data
+eg:From 10 columns it will create a 3 new column
+
+Note:
+To reduce no of features
+
+Q/A
+1.Why we should reduce dimension?
+ 1.1 This is to solve  the problem of "Curse of dimensionality ."
+ 1.2 This is t0 address  multi collinearity(when columns are highly correlated to each other)
+ So PCA creates uncorrelated features.
+  eg:
+     If columns,like "house_price","No of bed rooms","no of rest room" is part of
+     your input  data then it is called multi collinearity.
+
+2.How PCA works?
+  Step 1:
+        House_price will be in rupees,no of bed rooms,no of rest room will in single digit integer.
+        So all three input will be in different scale,So we have to standardize or normalize it.
+
+  Note:
+       If you don't standardize housing price will take higher variance.
+  Step2:
+       Each of the column("house_price","No of bed rooms","no of rest room" ) will be transformed to have mean
+       avg of 0 under std deviation of 1.
