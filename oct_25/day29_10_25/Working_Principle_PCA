@@ -1,0 +1,48 @@
+PCA:
+
+1. Principle Component Analysis
+2. No target so it is comes under unsupervised algorithm.
+3. This can also be used in the preprocessing.
+4. PCA converts the any number of column into a specific column
+5. PCA can also be called "Dimensionality Reduction Technique"
+6. It converts highly co-related data into non-corelated data.
+7. It can also used for visualization , when i want to project high dimension data into lower dimension
+
+
+Note:
+ a. When we have column which is similar and you can't choose any column because all the column
+    looks same and fine. Then you should choose PCA.
+ b. PCA wont be selecting the column, instead it creates a new column
+ c. no of new column that we needed will be decided on n_components parameter
+
+Flows of Working:
+
+1. So PCA also needs data to be standarized.
+2. it calculates the covariance matrix. (summary about the relationship about the data or variables or column)
+    2.1 positive co-variance (1.0)
+    2.2 Negative co-variance (-1.0)
+    2.3 unrelated(0)
+3. We will be calculating the distance(EigenValues, EigenVector)
+
+Examples:
+
+Price    No_of_Room   City   Near_By_LandMark Building_Year   No of Owners
+10000      5          Vellore      Fort          2003           3
+20000      4          Chennai      Beach         2010           2
+25000      4          Hyderabad    Briyani       2011           3
+
+Convert all categorical Column into Numerical
+Convert all Numerical column into Standarized Form
+
+Price    No_of_Room    City   Near_By_LandMark Building_Year   No of Owners
+0.99        0.68       0.44      0.33            0.80            0.6
+
+PCA = 2
+
+PCA1  PCA2
+---------
+0.566  0.387
+
+
+
+

@@ -1,0 +1,95 @@
+K-Means:
+
+---> For grouping or forming clusters.
+---> We will decide the number of clusters that is needed.
+---> Cluster value needs to be in odd number for overcome bias
+---> Number of Cluster formation is subjective to the specific issue or dataset
+---> UnSupervised Learning.
+
+Formation:
+
+1. give the n_clusters = 3.
+1.1 means, initially or randomly we groups the entire dataset into
+    3 clusters. because i have given 3 in the number
+1.2 Each cluster will be assigned a "Centroids" randomly
+1.3 Now based on the centroids , distance will be calculated,
+then datapoint which is near by to that will be forming group.
+1.4 once done, new centroids will be formed, and then same process
+will happen until entire groups are grouped or clustered.
+
+Note: Movement or change of centroids is based mean of those datapoint.
+since cluster is 3 iteration needed not be only 3,it can be 10,20 depends on data
+
+Step 1: It is evident that these data dont have label (target)
+Now i have data which doesnt have labelling:
+
+Dhoni, Ruturaj, Jadeja, Raina, Ashwin, Bravo
+Patidar, Kohli, DK, Siraj, ABD, Gayle,
+Sachin, Rohit, Pollard, Malinga, Bumrah, Hardik
+
+Step 2: Form or Find the number of clusters that needed to be formed
+n_clusters = 3
+
+Dhoni,Patidar,Rohit,Bumrah, Ruturaj,Pollard,  Jadeja,
+Kohli, DK,ABD, Gayle,Raina, Ashwin, Bravo, Siraj
+Sachin,Malinga,Hardik
+
+Step 3: Randomly form 3 groups without any meaning.
+
+Cluster 1 : Kohli, DK,ABD, Gayle,Raina,Ruturaj
+Cluster 2 : Dhoni,Patidar,Rohit,Bumrah,Pollard,siraj
+Cluster 3 : Sachin,Malinga,Hardik, jadeja,Ashwn, Bravo
+
+Step 4 : Find centriods for each of the group (Mean or Average)
+
+Cluster 1 : Kohli, DK,ABD, Gayle,Raina,Ruturaj   (ABD)
+Cluster 2 : Dhoni,Patidar,Rohit,Bumrah,Pollard,siraj(Bumrah)
+Cluster 3 : Sachin,Malinga,Hardik, jadeja,Ashwin, Bravo(Ashwin)
+
+Iteration 1:
+Cluster 1 : Kohli, DK,ABD, Gayle,Raina, ,siraj (kohli)
+Cluster 2 : Dhoni,Patidar,Rohit,Bumrah,Pollard,siraj,Sachin (Rohit)
+Cluster 3: Sachin,Malinga,Hardik, jadeja,Ashwin, Bravo,Ruturaj (Ruturaj)
+
+Iteration 2:
+Cluster 1 : Kohli, DK,ABD, Gayle,,siraj ,Patidar
+
+Cluster 2 : Dhoni,Rohit,Bumrah,Pollard,Sachin,Malinga (Rohit)
+Cluster 3: Hardik, jadeja,Ashwin,Raina, Bravo,Ruturaj (Ruturaj)
+
+Iteration 3:
+Cluster 1 : Kohli, DK,ABD, Gayle,siraj ,Patidar (completed)
+Cluster 2 : Rohit,Bumrah,Pollard,Sachin,Malinga,Hardik (Completed)
+Cluster 3 : Dhoni, jadeja,Ashwin,Raina, Bravo,Ruturaj (Completed)
+
+
+Customer_Review, Product, Price, No_of_Units_Sold         Calculated_Distance
+    4              TV      10000       100          ---->    50
+    4              TV      11000       90           ---->    52
+                                                    Mean   ---> (50 + 52)/2 = 51
+
+    5              TV      9000        200          ---->    600
+    5              TV      8000        250          ---->    699
+    5              TV      7000        300          ---->    700
+                                                     Mean ---> (600 + 699 + 700)/3 = 670
+
+    3              TV      35000       30           ---->    20
+    2              TV      25000       40           ---->    25
+                                                     Mean  ---> (20 + 25)/2 = 22.5
+
+
+
+First
+
+1. Do the conversion of Product from Categorical Column into Numerical Column
+2. Once done with point 1, ensure to do the standarization(StandardScaler)
+2.1 Standarization is needed because all the columns were in different Units
+3. Start finding the distance of each row using distance based algorithm like
+   a. eculidean or b. manhatten
+
+
+
+
+
+
+

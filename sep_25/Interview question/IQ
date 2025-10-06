@@ -1,0 +1,124 @@
+1)Difference between label encoder and ordinal encoder and one hot encoder
+
+Label Encoder:Converts categories into numbers (e.g., "Apple" → 0, "Banana" → 1) & For target labels or non-ordered features
+
+Ordinal Encoder:Converts categories into numbers with order (e.g., "Low" → 1, "Medium" → 2, "High" → 3) & For ordered categories
+
+one hot:Creates binary columns for each categories &For non-ordered features with few unique values
+
+
+
+2)In random forest if i select n estimate =10 how many estimates will be formed and ?
+Random Forest uses a technique called Bootstrap sampling or Bootstrap Aggregation (Bagging)
+Each tree is trained on a different random subset of the data
+- You’ll get 10 decision trees.
+- Each tree is trained on a random subset of the data using Bootstrap Sampling.
+- Final prediction is made by averaging (for regression) or voting (for classification)
+
+3>Random Forest-ensemble is used
+- It combines multiple decision trees to make better predictions.
+- This technique is called Bagging (Bootstrap Aggregation).
+- Ensemble = teamwork of models!
+
+4>decision tree hyperparameter?
+max_depth,min_depth,critrian,
+5>why is criteria
+- It helps the tree decide where to split the data.
+- Measures how pure each split is.
+- Common options:
+- gini: measures impurity
+- entropy: measures information gai
+
+6>what is n_jobs
+how many CPU cores your model can use at the same time to speed up training or prediction.
+7>Inputs files which can be used?
+csv,xlsx,json,txt,jpg
+8>what is support vector machine ?how does it works(principles)
+- A classification algorithm that finds the best boundary between classes.
+- It chooses the boundary with the maximum margin.
+- Only the closest points (support vectors) affect the boundary.
+- If data is messy, it uses a kernel trick to separate it in higher dimensions.
+
+9?Different Kernel
+linear,rbf,sigmoid,poly
+10>Distance base algorithm
+KNN,Kmeans,DBSCAN,Hierarchical Clustering
+11>different charts and where it is used
+- Use bar/column for categorical comparisons.
+- Use line/area for time series or trends.
+- Use scatter/bubble for relationships.
+- Use histogram/box/violin for distributions.
+- Use heatmap for correlations or intensity.
+
+12>covariance and correlation
+>covariance
+Measures how two variables change together
+No fixed range
+Positive = same direction<br>Negative = opposite direction
+
+correlation
+Measures how strongly two variables are related
+Always between -1 and +1
++1 = perfect positive<br>-1 = perfect negative<br>0 = no relation
+13>dataset for linera and non linera
+linear Height increase weight increase
+Non linear Temperature vs. Ice Cream Sale
+
+14>what is parametric and non parametric algorithm
+You always use the same ingredients and same steps. That’s a parametric algorithm — it has a fixed number of rules
+Parametric algorithms assume a fixed functional form for the model and learn a finite set of parameters from the training data.
+
+That’s a non-parametric algorithm — it adjusts based on the data!
+Non-parametric algorithms do not assume a fixed form. They can adapt their structure based on the data and grow in complexity with more samples.
+uses rows also with columns
+
+15>when it based on distance based algorithm,when to go for mim max and for std scaler?
+⚖️ When to Use Min-Max Scaler
+🔍 What It Does:
+- Scales features to a fixed range, usually [0, 1]
+- Preserves the shape of the distribution, but compresses the scale
+✅ Use When:
+- Your data has no outliers
+- You want to preserve relative spacing
+- You're using algorithms like KNN, K-Means, or SVM
+
+
+📐 When to Use Standard Scaler
+🔍 What It Does:
+- Centers data around mean = 0 and standard deviation = 1
+- Useful when features have different units or scales
+✅ Use When:
+- Your data has outliers
+- You assume a normal distribution
+- You're using algorithms like SVM, Logistic Regression, or PCA
+
+difference between model. fit &model_predict &fit_predict
+
+🧠 1. model.fit()
+🔍 What It Does:
+- Trains the model using input data (X) and target labels (y)
+- Learns patterns, weights, or rules from the data
+📌 Used In:
+- Supervised learning (classification, regression)
+- Example: Linear Regression, SVM, Decision Tree
+2. model.predict()
+🔍 What It Does:
+- Uses the trained model to make predictions on new/unseen data
+- Requires that model.fit() has already been called
+📌 Used In:
+- Making predictions after training
+y_pred = model.predict(X_test)
+3. model.fit_predict()
+🔍 What It Does:
+- Trains the model and returns predictions in a single step
+- Mostly used in unsupervised learning (like clustering)
+📌 Used In:
+- Algorithms like KMeans, DBSCAN, PCA
+
+
+
+
+
+
+
+

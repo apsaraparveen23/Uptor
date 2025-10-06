@@ -3,6 +3,7 @@ PCA(Principal Component Analysis)
 It Comes under pre-process
 It is nothing but the process of reducing dimension(column) to low dimension data
 eg:From 10 columns it will create a 3 new column
+PCA works only with numeric columns
 
 Note:
 To reduce no of features

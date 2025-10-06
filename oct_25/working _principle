@@ -1,0 +1,28 @@
+
+1. Customer Segmentation in E-Commerce
+- Use case: E-commerce platforms like Amazon or Flipkart use K-Means to group customers
+based on purchase history, browsing behavior, and demographics.
+- Impact: Helps tailor marketing campaigns, recommend products, and personalize user experiences.
+- Example: Segmenting users into “frequent buyers,” “deal seekers,” and “window shoppers” based on their activity.
+
+📷 2. Image Compression
+- Use case: K-Means is used to reduce the number of colors in an image by clustering similar pixel colors.
+- Impact: Reduces image size without significant loss in quality.
+- Example: Mobile apps and websites use this to optimize image loading speed and storage.
+
+📄 3. Document Classification
+- Use case: News aggregators or search engines cluster articles based on topics or keywords.
+- Impact: Improves content recommendation and search relevance.
+- Example: Grouping articles into clusters like “sports,” “politics,” and “technology” using term frequency vectors.
+
+🚨 4. Anomaly Detection in Network Security
+- Use case: K-Means helps identify unusual patterns in network traffic.
+- Impact: Detects potential cyber threats or fraud.
+- Example: Clustering normal vs. abnormal login patterns to flag suspicious activity.
+
+🏥 5. Medical Diagnosis
+- Use case: Clustering patient data based on symptoms, test results, or genetic markers.
+- Impact: Aids in early diagnosis and personalized treatment plans.
+- Example: Grouping diabetic patients based on glucose levels and lifestyle factors.
+
+

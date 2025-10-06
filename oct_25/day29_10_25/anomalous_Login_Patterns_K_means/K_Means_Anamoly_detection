@@ -1,0 +1,79 @@
+ Documentation: Detecting Anomalous Login Patterns with K-Means
+
+ Overview
+This program simulates login behavior data and uses K-Means clustering to
+detect suspicious login patterns (e.g., unusually long durations or excessive attempts).
+It visualizes the results and flags anomalies without needing any external data file.
+
+Step-by-Step Breakdown
+
+Step 1: Import Required Libraries
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+
+- numpy: for numerical operations and generating synthetic data.
+- pandas: for organizing data into a DataFrame.
+- matplotlib: for visualizing clusters.
+- sklearn: for scaling features and applying K-Means clustering.
+
+Step 2: Simulate Login Data
+normal_logins = np.random.normal(loc=[5, 2], scale=[1, 0.5], size=(100, 2))
+anomalous_logins = np.random.normal(loc=[15, 8], scale=[1, 0.5], size=(10, 2))
+
+- Normal logins: centered around 5 minutes and 2 attempts.
+- Anomalous logins: centered around 15 minutes and 8 attempts.
+- Data is generated using a normal distribution.
+
+Step 3: Combine and Organize Data
+data = np.vstack((normal_logins, anomalous_logins))
+df = pd.DataFrame(data, columns=['login_duration', 'login_attempts'])
+
+- Combines both datasets into a single array.
+- Converts it into a DataFrame with named columns.
+
+Step 4: Standardize Features
+scaler = StandardScaler()
+scaled_data = scaler.fit_transform(df)
+
+- Standardizes features to have mean = 0 and variance = 1.
+- Ensures fair clustering regardless of feature scale.
+
+Step 5: Apply K-Means Clustering
+kmeans = KMeans(n_clusters=2, random_state=42)
+df['cluster'] = kmeans.fit_predict(scaled_data)
+
+- Clusters the data into 2 groups: normal and anomalous.
+- Assigns each login to a cluster.
+
+Step 6: Identify Anomalies
+anomaly_cluster = df['cluster'].value_counts().idxmin()
+df['is_anomaly'] = df['cluster'] == anomaly_cluster
+
+- Assumes the smaller cluster represents anomalies.
+- Flags those rows with is_anomaly = True.
+
+Step 7: Visualize Clusters
+colors = ['green' if not anomaly else 'red' for anomaly in df['is_anomaly']]
+plt.scatter(df['login_duration'], df['login_attempts'], c=colors, alpha=0.6)
+plt.xlabel('Login Duration')
+plt.ylabel('Login Attempts')
+plt.title('K-Means Clustering: Normal vs Anomalous Logins')
+plt.grid(True)
+plt.show()
+
+- Plots login records.
+- Green = normal, Red = suspicious.
+
+Step 8: Print Flagged Anomalies
+print("\n🚨 Suspicious login patterns detected:")
+print(df[df['is_anomaly']])
+
+- Displays the rows flagged as anomalous.
+
+ Notes
+- No external file is needed — data is synthetically generated.
+- You can replace synthetic data with real login logs from a CSV file for production use.
+- This approach is useful for unsupervised anomaly detection when labeled data is unavailable.
