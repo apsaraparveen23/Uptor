@@ -19,5 +19,7 @@ model.fit(X, y)
 
 # Save model to pickle file
 with open("upor_203_linear_model.pkl", "wb") as obj:
-    pickle.dump( model, obj)
+    pickle.dump( model,obj)
+
+
 print("Model trained and saved as model.pkl")

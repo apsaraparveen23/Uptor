@@ -1,0 +1,22 @@
+DML-process inside table(contents of the table)
+DDL-process for the table(structure of the table)
+
+create_table="""create table course('course_id,int,'course_name'text)"""
+
+ create=syntax
+ table=syntax
+ course=user defined name
+ course_id,course_names=col of the course table
+ int and text are datatypes of the columns respectively for course_id and vourse_name
+
+ we can include constraints(condition) while creating table
+ 1.Auto increment
+ 2.Primary key,foreign key
+ 3.not null
+ 4.unique
+ 5....
+
+ mysql and SQL lite3,oracle are called as relational database management system(RDBMS)
+ Because the tables can be connecte to other tables.modeling of the tables can be visually seen throu
+ PowervBI
+ MongoDB is called non relational DBMS

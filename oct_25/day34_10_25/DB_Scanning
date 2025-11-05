@@ -1,0 +1,19 @@
+Key Points:
+
+Epsilon (ε)
+The maximum radius of the neighborhood around a point.
+It defines how close points should be to each other to be considered as neighbors.
+
+MinPts (Minimum Points)
+The minimum number of points required to form a dense region (cluster). This includes the point itself.
+
+Core Point
+A point is a core point if at least MinPts points (including itself) are within its
+ ε neighborhood.
+
+Border Point
+A point is a border point if it is not a core point,
+but it lies within the ε neighborhood of a core point.
+
+Noise Point (Outlier)
+A point is a noise point if it is neither a core point nor a border point.

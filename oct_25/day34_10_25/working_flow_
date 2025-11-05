@@ -1,0 +1,21 @@
+Start with an unvisited point in the dataset.
+
+Mark it as visited.
+
+Find all points within ε distance (neighborhood).
+
+If the number of points in the neighborhood is greater than or equal to MinPts,
+
+Mark the point as a core point.
+
+Create a new cluster.
+
+Expand the cluster by visiting all neighbors recursively.
+
+If the number of neighbors is less than MinPts,
+
+Mark it as a noise point.
+
+It may later be included in a cluster if it falls within the neighborhood of a core point.
+
+Repeat the process until all points are visited.

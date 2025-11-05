@@ -1,0 +1,77 @@
+Project Creation (Main)
+
+Branches A ---> Main
+Branches B ---> Main
+Branches C ---> Main
+
+Github is tool that is going to help us in merging.
+
+Project is readily available in Main
+
+http://uptor.github.com/ds.git
+
+To merge the branches into main branches we need each branch owners
+to create PR (Pull Request)
+
+Senior person on the team, checks on the PR and if its looks all ok. then
+he will be adding that in the Main branch.
+
+1. To cross verify that every PR Merges needs to be tested with some basic functionality
+
+We will create a test Suite:
+
+1. Basic UI and advance Functionality
+2. Basic and important function
+3. Negative and positive cases
+4. edge cases
+
+They will create a file, that runs all the above cases. It will create a working environment that
+can run teh code.
+
+1. Angular 2. python 3. pandas 4. sql
+
+requirements.txt
+----------------
+python
+pandas
+
+Similarly any UI based installation (npm)
+
+Now the Role of Jenkins:
+
+Jenkins or Concourse ---> CI/CD Pipeline Tool
+----------------------------------------------
+
+Jenkins Login (Company based login)
+Create a project ----> uptor_ds
+in the given project ----> Create a build
+
+Type  1:
+
+Configuration:
+
+When to run: whenever PR is merged by two users
+
+¸
+
+(In you company both Jenkins and GITHUB will be linter linked)
+
+Type 1:
+
+they will create workspace in jenkins:
+
+1. Tasks ---> Whenever PR is approved by two user
+
+http://uptor.github.com/ds.git
+
+2. Environment:
+
+         1. Test    -----> Build ----> Success ---->
+         2. Dev     -----> Build ----> Success -----> PR will be automerged
+
+         3. Staging  ----> Build ----> Sucesss -----> Result
+
+         4. Production
+
+
+

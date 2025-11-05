@@ -1,0 +1,130 @@
+---
+
+## Table of Contents
+
+1. Introduction
+2. Problem Statement and Objectives
+3. Background & Theory
+4. Dataset(s)
+5. Methodology
+
+   * Preprocessing
+   * Choosing hyperparameters (eps, min\_samples)
+   * Implementation steps
+   
+6. Experiments and Results
+7. Evaluation
+8. Discussion and Limitations
+9. Extensions and Future Work
+10. Report structure and presentation
+11. Appendix: Code (full reproducible notebook)
+
+---
+
+## 1. Introduction
+
+Clustering groups similar data points without using labels.
+DBSCAN is a popular unsupervised algorithm that groups dense regions
+and marks low-density points as noise.
+It performs well when clusters have non-linear shapes and when outlier detection is required.
+
+## 2. Problem Statement and Objectives
+
+**Problem:** Given an unlabeled dataset, find meaningful clusters and identify outliers.
+
+**Objectives:**
+
+* Explain DBSCAN theory and parameters.
+* Implement DBSCAN and tune eps and min\_samples.
+* Evaluate clustering quality using internal metrics.
+* Visualize clusters and noise.
+* Provide an analysis of results and recommendations.
+
+## 3. Background & Theory
+
+### DBSCAN Key Concepts
+
+* **eps (\u03b5):** neighborhood radius.
+* **min\_samples:** minimum points required to form a dense region.
+* **Core point:** has at least `min_samples` within `eps`.
+* **Border point:** within `eps` of a core point but has fewer than `min_samples` neighbors.
+* **Noise:** not a core or border point.
+
+### Advantages
+
+* Finds clusters of arbitrary shape.
+* Robust to noise.
+* No need to specify number of clusters.
+
+### Limitations
+
+* Sensitive to `eps` in varying density datasets.
+* Choosing `eps` may be tricky in high-dimensional space.
+* Not ideal for clusters with widely varying densities (consider HDBSCAN as an extension).
+
+## 4. Dataset(s)
+
+Include at least two datasets to demonstrate behavior:
+
+* **Synthetic:** `make_blobs` with multiple centers and also a non-linearly separable dataset (e.g., concentric circles) from `sklearn.datasets`.
+* **Real-world:** A small UCI dataset such as the Wine dataset (drop labels), or the Mall Customers dataset, or a geospatial dataset like latitude/longitude clusters.
+
+Provide dataset source, preprocessing steps, and a link or citation.
+
+## 5. Methodology
+
+### Preprocessing
+
+* Standardize or normalize features (`StandardScaler`) when different scales are present.
+* For high dimensional data, consider PCA to reduce to 2–10 components for distance-based clustering.
+
+### Choosing `eps` and `min_samples`
+
+* Use the **k-distance graph**: compute distance to the k-th nearest neighbor (`k = min_samples - 1` or `min_samples`) for each point, sort distances, and look for the elbow.
+* Rule of thumb: `min_samples` = `D + 1` where `D` is the number of dimensions, or start with 4.
+
+### Implementation Steps
+
+1. Load and preprocess data.
+2. Plot data (2D or PCA-reduced) to get intuition.
+3. Compute k-distance curve and pick `eps`.
+4. Run `sklearn.cluster.DBSCAN` with chosen parameters.
+5. Evaluate using Silhouette Score, Davies–Bouldin Index, Calinski–Harabasz, and cluster counts including noise.
+6. Visualize clusters and noise.
+
+## 6. Experiments and Results
+
+Run the following experiments and record results:
+
+* Synthetic blobs (well-separated): expect DBSCAN to find clusters consistent with centers.
+* Non-linear shapes (circles, moons): DBSCAN should recover shapes better than KMeans.
+* Vary `eps` and `min_samples` and show the effect.
+* Real-world dataset: show clustering results, number of clusters, and metrics.
+
+Include tables summarizing parameter choices and metrics, plus cluster visualizations.
+
+## 7. Evaluation
+
+Use internal metrics (no labels assumed):
+
+* **Silhouette score** (range \[-1,1]): higher is better; only defined when number of clusters \u2265 2 and not all points are noise.
+* **Davies-Bouldin Index**: lower is better.
+* **Calinski-Harabasz Index**: higher is better.
+
+Also analyze:
+
+* Fraction of points labeled as noise.
+* Cluster sizes.
+
+## 8. Discussion and Limitations
+
+Discuss how eps affects clustering, tradeoffs of min\_samples, sensitivity to scaling, and why DBSCAN may struggle with different densities. Mention possible pre-processing to help (PCA, feature selection), and recommend HDBSCAN for varying densities.
+
+## 9. Extensions and Future Work
+
+* Try **HDBSCAN** (hierarchical DBSCAN) for varying density clusters.
+* Use **OPTICS** for automatic eps-range exploration.
+* Apply to geospatial clustering (latitude/longitude) possibly with haversine distance.
+* Combine with manifold learning (t-SNE, UMAP) for visualization.
+
+## 10. Report structure and presentation

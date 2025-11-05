@@ -1,0 +1,75 @@
+C:\Users\apsar\PycharmProjects\PythonProject\Desktop\uptor\.venv\Scripts\python.exe C:\Users\apsar\PycharmProjects\PythonProject\Desktop\uptor\Afsara_project\Election_test_code.py
+📁 Saved 10 tweets for 'BJP' to BJP.csv
+Rate limit exceeded. Sleeping for 893 seconds.
+📁 Saved 10 tweets for 'Congress' to Congress.csv
+C:\Users\apsar\PycharmProjects\PythonProject\Desktop\uptor\Afsara_project\Election_test_code.py:118: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  combined_df['retweet_count'] = combined_df['retweet_count'].fillna(0)
+
+✅ Cleaned dataset with sentiment and buzz score saved as 'cleaned_df.csv'
+
+📊 Sentiment Distribution:
+sentiment
+neutral     14
+positive     6
+Name: count, dtype: int64
+
+😊 Positive Tweets:
+                        time                                              tweet
+10 2025-10-23 16:51:51+00:00   Congress &amp allies have been looting Mandir...
+11 2025-10-23 16:51:51+00:00   Zohran Mamdani's had a love-fest with arguabl...
+13 2025-10-23 16:51:50+00:00   HUGE 🚨 Smita Prakash EXPOSES Ravish Kumar.SMI...
+
+😐 Neutral Tweets:
+                       time                                              tweet
+0 2025-10-23 16:19:06+00:00   बात ब्राह्मण या दलित की नहीं है।बात है आत्मसम...
+1 2025-10-23 16:19:05+00:00   संसद पर हमला हुआ तब भी BJP...🚨कारगिल हुआ तब भ...
+2 2025-10-23 16:19:05+00:00   Mahagathbandhan in meltdown! 😆 RJD drops Rahu...
+
+😠 Negative Tweets:
+Empty DataFrame
+Columns: [time, tweet]
+Index: []
+
+🔥 Top Buzz Tweets:
+                        time  ... buzz_score
+13 2025-10-23 16:51:50+00:00  ...     2995.5
+18 2025-10-23 16:51:49+00:00  ...     2995.5
+12 2025-10-23 16:51:50+00:00  ...     2676.0
+19 2025-10-23 16:51:48+00:00  ...     1586.0
+9  2025-10-23 16:19:01+00:00  ...     1369.0
+
+[5 rows x 3 columns]
+
+🗳️ Election Buzz Summary:
+- 😊 Positive tweets: 6
+- 😐 Neutral tweets: 14
+- 😠 Negative tweets: 0
+
+Top buzz topics include rallies, speeches, and Election Commission updates.
+
+
+📋 Classification Report:
+              precision    recall  f1-score   support
+
+     neutral       0.80      0.67      0.73         6
+    positive       0.33      0.50      0.40         2
+
+    accuracy                           0.62         8
+   macro avg       0.57      0.58      0.56         8
+weighted avg       0.68      0.62      0.65         8
+
+
+🔍 Sample Predictions:
+                                                tweet  ... predicted_sentiment
+0    बात ब्राह्मण या दलित की नहीं है।बात है आत्मसम...  ...             neutral
+17   First the attack on a Go-Rakshak and now this...  ...            positive
+15   BJP Founder  Shyama Prasad MukherjeeCongress ...  ...            positive
+1    संसद पर हमला हुआ तब भी BJP...🚨कारगिल हुआ तब भ...  ...             neutral
+8                                            BJP ONLY  ...            positive
+5    BJP muslims ko gaaliyan deti hai, gunde bhagw...  ...             neutral
+11   Zohran Mamdani's had a love-fest with arguabl...  ...             neutral
+3    🚨Yesterday, during the  BiharElection2025 cam...  ...             neutral
+
+[8 rows x 3 columns]
+
+Process finished with exit code 0

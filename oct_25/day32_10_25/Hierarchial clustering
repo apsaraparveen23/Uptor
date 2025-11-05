@@ -1,0 +1,74 @@
+Unsupervised Algorithm:
+-----------------------
+
+Hierarchical clustering is of 2 types
+
+1.Agglomerative(Bottom up )technique
+2.Divisive(Top down)technique
+
+Note:Both uses distance between the cluster technique
+
+Mechanism:
+
+Linkage Mechanism
+A linkage mechanism is a mechanical system made of rigid links
+connected by movable joints (like hinges or sliders).
+These systems are designed to convert input motion or force into a desired output motion
+ or force, often with precision and efficiency.
+(Here each of data becomes cluster by itself).
+
+Agglomerative(Bottom up )technique:
+1.Every point will be considered as its own cluster
+2.Each cluster then merges with most similar cluster in a iterative way
+3.This formation happens till single cluster is formed(we will limit the no of clusters needed).
+
+Flow:
+----
+1.Distance metric:
+The method of calculating the similarity between clusters based
+
+2.The linkage criteria:
+This is rule for determining the distance between two groups of data points
+
+Note:output for the same can be visualized via dendrogram
+
+Flow Steps:
+
+Step1:
+Each data point has a individual cluster
+Dhoni,Ashwin,Rohit,Kohli,DK,Ritu,Bumrah,Siraj,Malinga
+
+Note:
+Each and every player is a cluster
+total their are 9 clusters in the above examples
+
+Step2:Each cluster will be calculated by its distance
+CSK,  CSK,   MI,   RCB,  RCB, CSK, MI,     RCB, MI
+Dhoni,Ashwin,Rohit,Kohli,DK,  Ritu,Bumrah,Siraj,Malinga
+
+Step3:
+Two closest cluster based on the linkage will be merged  in to single cluster
+
+step4:
+Again that cluster will be calculated by  distance
+
+Example:
+CSK,  CSK,   MI,   RCB,  RCB, CSK, MI,     RCB, MI
+Dhoni,Ashwin,Rohit,Kohli,DK,  Ritu,Bumrah,Siraj,Malinga
+
+Farthest:
+[CSK       ] CSK,   [MI           ] RCB,  RCB, , MI,     RCB,
+[Dhoni,Ritu]Ashwin,[Rohit Malinga],Kohli,DK,  ,Bumrah,Siraj,
+
+with each iteration
+Ritu moves nera dhoni
+Mainga moves near rohit
+siraj moves to kholi
+ this is called threshold
+
+ Types of Linkage:
+1.Single-uses the shortest distance between the two points
+2.Complete-uses the farthest /max distance between the two points
+3.Average -uses the average distance between the two points and merges the closest the points
+4.Ward method-It is to reduce the cluster variance
+ (wards form to reduce the variance within the cluster group)

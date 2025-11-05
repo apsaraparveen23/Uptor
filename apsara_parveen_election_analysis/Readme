@@ -1,0 +1,160 @@
+Political Sentiment Analysis Project
+Project Overview
+
+This project analyzes political tweets to determine their sentiment — positive, negative, or neutral.
+It uses TextBlob for initial sentiment analysis and Machine Learning (Random Forest) for prediction and classification.
+The project is integrated with a Flask REST API, so you can send tweets via Postman and get instant sentiment predictions.
+
+Project Structure
+political_sentiment_project/
+│
+├── app.py                     → Flask web application
+├── main.py                    → Local standalone script to run pipeline
+│
+├── data/
+│   ├── political_tweets.csv   → Original tweet dataset (manual or downloaded)
+│   └── cleaned_df.csv         → Cleaned and processed tweets
+│
+├── src/
+│   ├── preprocessing.py       → Data loading and cleaning
+│   ├── sentiment.py           → Sentiment scoring using TextBlob
+│   ├── features.py            → Feature extraction (word counts, polarity, etc.)
+│   ├── model.py               → Model training (Random Forest)
+│   ├── visualization.py       → Sentiment plots and charts
+│   ├── pipeline.py            → Orchestrates full ML pipeline
+│   └── model_utils.py         → Save/load model utilities
+│
+├── outputs/
+│   ├── new_tweet_predictions.csv → Predicted results for new tweets
+│   ├── model.pkl                 → Saved trained model
+│   └── label_encoder.pkl         → Saved label encoder
+│
+├── requirements.txt           → Python library dependencies
+└── README.txt                 → Project documentation
+
+⚙️ Technologies Used
+
+Python 3.x
+
+Flask – REST API framework
+
+Pandas – Data handling
+
+TextBlob – Sentiment polarity
+
+Scikit-learn – ML model and pipeline
+
+Matplotlib – Data visualization
+
+Joblib – Model saving/loading
+
+ Features
+
+ Cleans raw tweets (removes hashtags, mentions, links)
+ Detects sentiment (Positive / Negative / Neutral)
+ Calculates “Buzz Score” (weighted by retweet count)
+ Trains and saves a Random Forest classifier
+ Provides REST API endpoints to analyze new tweets
+Works seamlessly with Postman
+
+🚀 How to Run the Project
+1️⃣ Setup Environment
+
+Open project folder in PyCharm.
+
+Create and activate a virtual environment:
+
+python -m venv venv
+venv\Scripts\activate
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+2️⃣ Run Flask App
+
+Run the app with:
+
+python app.py
+
+
+You should see:
+
+ * Running on http://127.0.0.1:5000
+
+🔌 API Endpoints (use Postman)
+1. Run Full Pipeline
+
+Method: GET
+
+URL: http://127.0.0.1:5000/run_pipeline
+
+Response:
+
+{
+  "message": "Pipeline executed successfully!"
+}
+
+2. Predict Sentiment for Tweets
+
+Method: POST
+
+URL: http://127.0.0.1:5000/predict
+
+Body → raw → JSON:
+
+{
+  "tweets": [
+    "PM Modi announces new welfare scheme for farmers.",
+    "Congress questions government’s transparency.",
+    "People are hopeful about upcoming elections."
+  ]
+}
+
+
+Response Example:
+
+{
+  "predictions": [
+    {
+      "tweet": "PM Modi announces new welfare scheme for farmers.",
+      "predicted_sentiment": "positive"
+    },
+    {
+      "tweet": "Congress questions government’s transparency.",
+      "predicted_sentiment": "negative"
+    },
+    {
+      "tweet": "People are hopeful about upcoming elections.",
+      "predicted_sentiment": "positive"
+    }
+  ]
+}
+
+📊 Output Files
+
+cleaned_df.csv → All processed tweets with sentiment & buzz score
+
+new_tweet_predictions.csv → Predictions from the latest API request
+
+model.pkl → Saved trained ML model
+
+label_encoder.pkl → Encoded sentiment label mapping
+
+🧩 Next Improvements
+
+Add single text sentiment route (/analyze_text)
+
+Integrate live Twitter API for real-time analysis
+
+Build a simple web dashboard for visualization
+
+Deploy on Render or Railway for public access
+
+👩‍💻 Author
+
+Apsara Parveen
+Project: Political Tweet Sentiment Analysis with Flask API
+Language: Python 3
+Framework: Flask + Scikit-learn + TextBlob

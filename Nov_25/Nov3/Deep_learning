@@ -1,0 +1,69 @@
+Deep Learning is meant for unstructured data handling.
+unstructured data includes
+  1.Images
+  2.Audios
+  3.Videos
+
+Libraries needed:
+    1.tensorflow(keras)
+    2.pytorch
+Note:
+tensorflow(keras) was developed by google
+pytorch was developed by Facebook’s AI Research Lab (FAIR) — now known as Meta AI.
+
+understanding the sequential layer:
+---------------------------------------
+1.Flatten--->Conversion of high dimension data into low dimension data
+Note:
+*It creates images into one-dimensional array.
+*Image generally contains three dimensional.
+Height
+width
+channels(grey scale or RGB)
+*Above three dimensional will convert into single dimensional by shaping
+into height *width*channel
+when our code contains *28*28=784pixel in our flatten layer it means
+our images are in height of28 and width of 28
+
+ Note:28 is not a fixed pixel value.It can change with image to image.
+
+2.Layers of deep learning sequential process:
+1.Input layer(flatten)
+2.Hidden layer(Dense(128, activation='relu'),)
+3.Output layer(Dense(10, activation='softmax'))
+Note:
+1.128 inside the dense layer is called as neuron
+2.Based upon the complexity of the images the dense layer can have different
+numbers(Dense(32,64,128,256,512,1024,2048))
+3.A sequential or input layer has many hidden layer depends upon the input.
+4.A (Dense(10, activation='softmax')).No 10 indicates No of imahes to be classified .It is very
+according to the input.
+5.Activation function for hidden layer and output layer can vary as we wish.
+
+3.Model compile
+This step  takes structure that we formed with sequential layer.
+1.Optimizer is the processing in which model updates its weights based upon the
+data exists.
+2.Types of optimizer(It is an algorithm for th emodel to adjust various issues
+and produce minimum loss
+Note:Minimization of the loss function.
+a.Adam
+b.SGD
+c.RMSprop
+d.Ade grad
+2.Loss function :It is basically an algorithm to find the how the model is performing
+training.It tells you the difference between model prediction and actual.
+It is similar to oe hot encoding
+3.Metric:How well the data is performed with optimizer and loss
+
+4.Model Fit:
+epoch=5 No of iteration
+
+
+Various Architecture of Deep learning
+-----------------------------------------
+1.Fully connected feed forward neural network(our example) or MLP(Multillayer perceptrons)
+2.CNN(Convolutional Neural network)
+3.RNN(Recurrent Neural networks)
+4.Transformers(NLP or LLM)(ex-chatgpt)
+5.GAN(Geneartive adversaraila networks)(ex Gen..)
