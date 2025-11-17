@@ -1,0 +1,1001 @@
+tweet_id,time,tweet,retweet_count,sentiment,buzz_score
+1001,2025-10-30 08:00:00,The new policy brings hope for youth and growth.,490,positive,735.0
+1002,2025-10-30 23:05:00,Digital India initiative has connected rural areas.,265,neutral,265.0
+1003,2025-11-02 05:54:00,PM's vision inspires entrepreneurs nationwide.,282,neutral,282.0
+1004,2025-10-30 21:11:00,PM's vision inspires entrepreneurs nationwide.,404,neutral,404.0
+1005,2025-10-31 15:42:00,Modi's leadership is bringing real change to India.,485,positive,727.5
+1006,2025-10-31 04:34:00,Modi's leadership is bringing real change to India.,475,positive,712.5
+1007,2025-10-28 17:50:00,Digital India initiative has connected rural areas.,314,neutral,314.0
+1008,2025-10-31 16:56:00,Government's new scheme helps small businesses.,264,neutral,264.0
+1009,2025-10-31 23:09:00,Modi's leadership is bringing real change to India.,100,positive,150.0
+1010,2025-11-02 08:07:00,Modi's leadership is bringing real change to India.,421,positive,631.5
+1011,2025-10-29 19:31:00,Public support rises for infrastructure progress.,79,neutral,79.0
+1012,2025-10-29 07:47:00,Modi's leadership is bringing real change to India.,400,positive,600.0
+1013,2025-11-01 18:33:00,Digital India initiative has connected rural areas.,288,neutral,288.0
+1014,2025-10-28 12:40:00,Public support rises for infrastructure progress.,478,neutral,478.0
+1015,2025-10-31 11:16:00,Digital India initiative has connected rural areas.,280,neutral,280.0
+1016,2025-10-29 03:40:00,Government's new scheme helps small businesses.,100,neutral,100.0
+1017,2025-10-28 23:36:00,India's economy is moving in the right direction.,500,positive,750.0
+1018,2025-10-29 11:14:00,Digital India initiative has connected rural areas.,394,neutral,394.0
+1019,2025-10-29 06:09:00,Public support rises for infrastructure progress.,261,neutral,261.0
+1020,2025-10-30 08:50:00,Modi's leadership is bringing real change to India.,400,positive,600.0
+1021,2025-10-30 03:44:00,Citizens applaud the government's clean energy plan.,80,positive,120.0
+1022,2025-10-31 00:37:00,India's economy is moving in the right direction.,116,positive,174.0
+1023,2025-11-01 07:01:00,India's economy is moving in the right direction.,150,positive,225.0
+1024,2025-10-31 22:04:00,The new policy brings hope for youth and growth.,440,positive,660.0
+1025,2025-10-29 07:22:00,PM's vision inspires entrepreneurs nationwide.,382,neutral,382.0
+1026,2025-11-02 01:05:00,Public support rises for infrastructure progress.,252,neutral,252.0
+1027,2025-10-31 10:54:00,Digital India initiative has connected rural areas.,202,neutral,202.0
+1028,2025-10-29 03:24:00,People appreciate the government's development efforts.,367,neutral,367.0
+1029,2025-11-02 04:37:00,Government's new scheme helps small businesses.,448,neutral,448.0
+1030,2025-11-01 08:27:00,Healthcare reforms are benefiting common people.,69,negative,34.5
+1031,2025-10-28 18:48:00,Government's new scheme helps small businesses.,329,neutral,329.0
+1032,2025-11-01 18:21:00,Digital India initiative has connected rural areas.,183,neutral,183.0
+1033,2025-10-28 16:15:00,Digital India initiative has connected rural areas.,215,neutral,215.0
+1034,2025-11-01 10:11:00,The new policy brings hope for youth and growth.,41,positive,61.5
+1035,2025-10-28 12:36:00,Public support rises for infrastructure progress.,125,neutral,125.0
+1036,2025-11-01 13:31:00,Digital India initiative has connected rural areas.,12,neutral,12.0
+1037,2025-10-29 05:53:00,PM's vision inspires entrepreneurs nationwide.,384,neutral,384.0
+1038,2025-10-31 02:54:00,PM's vision inspires entrepreneurs nationwide.,30,neutral,30.0
+1039,2025-10-30 01:39:00,Public support rises for infrastructure progress.,488,neutral,488.0
+1040,2025-10-30 21:03:00,PM's vision inspires entrepreneurs nationwide.,389,neutral,389.0
+1041,2025-11-01 23:20:00,PM's vision inspires entrepreneurs nationwide.,65,neutral,65.0
+1042,2025-10-28 14:00:00,The new policy brings hope for youth and growth.,444,positive,666.0
+1043,2025-11-02 01:48:00,Government's new scheme helps small businesses.,354,neutral,354.0
+1044,2025-11-01 10:57:00,Government's new scheme helps small businesses.,359,neutral,359.0
+1045,2025-10-30 19:30:00,PM's vision inspires entrepreneurs nationwide.,301,neutral,301.0
+1046,2025-10-30 18:50:00,People appreciate the government's development efforts.,182,neutral,182.0
+1047,2025-10-30 02:35:00,Government's new scheme helps small businesses.,235,neutral,235.0
+1048,2025-10-28 20:33:00,Modi's leadership is bringing real change to India.,165,positive,247.5
+1049,2025-10-29 14:53:00,Digital India initiative has connected rural areas.,480,neutral,480.0
+1050,2025-10-29 09:04:00,People appreciate the government's development efforts.,406,neutral,406.0
+1051,2025-10-30 19:03:00,Digital India initiative has connected rural areas.,494,neutral,494.0
+1052,2025-10-31 21:49:00,India's economy is moving in the right direction.,86,positive,129.0
+1053,2025-10-30 06:33:00,People appreciate the government's development efforts.,240,neutral,240.0
+1054,2025-10-29 17:01:00,Government's new scheme helps small businesses.,59,neutral,59.0
+1055,2025-10-30 23:31:00,Healthcare reforms are benefiting common people.,382,negative,191.0
+1056,2025-11-01 00:03:00,The new policy brings hope for youth and growth.,493,positive,739.5
+1057,2025-11-01 10:26:00,Government's new scheme helps small businesses.,358,neutral,358.0
+1058,2025-10-29 04:45:00,India's economy is moving in the right direction.,106,positive,159.0
+1059,2025-10-30 09:52:00,PM's vision inspires entrepreneurs nationwide.,98,neutral,98.0
+1060,2025-10-29 19:48:00,Government's new scheme helps small businesses.,71,neutral,71.0
+1061,2025-10-28 15:26:00,Public support rises for infrastructure progress.,439,neutral,439.0
+1062,2025-10-31 05:18:00,People appreciate the government's development efforts.,142,neutral,142.0
+1063,2025-10-31 21:32:00,Public support rises for infrastructure progress.,109,neutral,109.0
+1064,2025-10-31 04:53:00,India's economy is moving in the right direction.,311,positive,466.5
+1065,2025-10-31 03:49:00,India's economy is moving in the right direction.,344,positive,516.0
+1066,2025-10-30 16:34:00,Digital India initiative has connected rural areas.,399,neutral,399.0
+1067,2025-10-29 06:03:00,India's economy is moving in the right direction.,331,positive,496.5
+1068,2025-10-31 12:09:00,Public support rises for infrastructure progress.,67,neutral,67.0
+1069,2025-10-29 23:46:00,Healthcare reforms are benefiting common people.,45,negative,22.5
+1070,2025-10-30 06:10:00,Modi's leadership is bringing real change to India.,54,positive,81.0
+1071,2025-11-01 04:00:00,Modi's leadership is bringing real change to India.,250,positive,375.0
+1072,2025-11-01 15:33:00,PM's vision inspires entrepreneurs nationwide.,341,neutral,341.0
+1073,2025-10-31 23:30:00,Modi's leadership is bringing real change to India.,168,positive,252.0
+1074,2025-10-31 17:08:00,Public support rises for infrastructure progress.,466,neutral,466.0
+1075,2025-10-31 03:16:00,Modi's leadership is bringing real change to India.,388,positive,582.0
+1076,2025-10-31 18:43:00,PM's vision inspires entrepreneurs nationwide.,377,neutral,377.0
+1077,2025-10-31 20:58:00,Modi's leadership is bringing real change to India.,21,positive,31.5
+1078,2025-10-28 22:03:00,Digital India initiative has connected rural areas.,106,neutral,106.0
+1079,2025-10-29 20:07:00,Healthcare reforms are benefiting common people.,148,negative,74.0
+1080,2025-11-01 12:03:00,Citizens applaud the government's clean energy plan.,129,positive,193.5
+1081,2025-10-28 19:38:00,Modi's leadership is bringing real change to India.,397,positive,595.5
+1082,2025-10-29 16:42:00,India's economy is moving in the right direction.,334,positive,501.0
+1083,2025-10-30 22:57:00,Digital India initiative has connected rural areas.,283,neutral,283.0
+1084,2025-10-31 09:30:00,Healthcare reforms are benefiting common people.,311,negative,155.5
+1085,2025-11-01 03:40:00,Digital India initiative has connected rural areas.,336,neutral,336.0
+1086,2025-10-31 04:37:00,Public support rises for infrastructure progress.,338,neutral,338.0
+1087,2025-10-29 16:02:00,People appreciate the government's development efforts.,51,neutral,51.0
+1088,2025-10-28 10:49:00,India's economy is moving in the right direction.,12,positive,18.0
+1089,2025-11-01 16:51:00,Citizens applaud the government's clean energy plan.,342,positive,513.0
+1090,2025-10-31 11:32:00,Healthcare reforms are benefiting common people.,450,negative,225.0
+1091,2025-10-30 08:45:00,India's economy is moving in the right direction.,301,positive,451.5
+1092,2025-11-02 08:11:00,The new policy brings hope for youth and growth.,34,positive,51.0
+1093,2025-11-01 16:14:00,India's economy is moving in the right direction.,260,positive,390.0
+1094,2025-10-28 19:49:00,Citizens applaud the government's clean energy plan.,103,positive,154.5
+1095,2025-10-31 03:40:00,The new policy brings hope for youth and growth.,407,positive,610.5
+1096,2025-10-29 20:17:00,People appreciate the government's development efforts.,467,neutral,467.0
+1097,2025-10-31 07:13:00,Modi's leadership is bringing real change to India.,207,positive,310.5
+1098,2025-11-02 03:00:00,Public support rises for infrastructure progress.,350,neutral,350.0
+1099,2025-10-29 16:34:00,India's economy is moving in the right direction.,86,positive,129.0
+1100,2025-10-31 00:38:00,The new policy brings hope for youth and growth.,143,positive,214.5
+1101,2025-10-28 17:16:00,Modi's leadership is bringing real change to India.,430,positive,645.0
+1102,2025-10-30 12:59:00,The new policy brings hope for youth and growth.,340,positive,510.0
+1103,2025-11-02 08:48:00,Healthcare reforms are benefiting common people.,259,negative,129.5
+1104,2025-11-02 06:09:00,Public support rises for infrastructure progress.,95,neutral,95.0
+1105,2025-11-02 01:19:00,The new policy brings hope for youth and growth.,106,positive,159.0
+1106,2025-10-31 09:37:00,Public support rises for infrastructure progress.,124,neutral,124.0
+1107,2025-10-30 16:20:00,Modi's leadership is bringing real change to India.,483,positive,724.5
+1108,2025-10-30 00:58:00,The new policy brings hope for youth and growth.,499,positive,748.5
+1109,2025-10-29 11:51:00,The new policy brings hope for youth and growth.,387,positive,580.5
+1110,2025-10-31 17:11:00,The new policy brings hope for youth and growth.,149,positive,223.5
+1111,2025-10-31 08:44:00,People appreciate the government's development efforts.,486,neutral,486.0
+1112,2025-10-30 16:18:00,Modi's leadership is bringing real change to India.,11,positive,16.5
+1113,2025-10-29 13:15:00,Digital India initiative has connected rural areas.,153,neutral,153.0
+1114,2025-10-28 14:29:00,Citizens applaud the government's clean energy plan.,77,positive,115.5
+1115,2025-11-01 13:43:00,The new policy brings hope for youth and growth.,264,positive,396.0
+1116,2025-10-30 11:58:00,PM's vision inspires entrepreneurs nationwide.,267,neutral,267.0
+1117,2025-10-31 16:12:00,People appreciate the government's development efforts.,382,neutral,382.0
+1118,2025-10-30 17:01:00,Modi's leadership is bringing real change to India.,52,positive,78.0
+1119,2025-11-02 00:03:00,Government's new scheme helps small businesses.,250,neutral,250.0
+1120,2025-10-30 17:37:00,The new policy brings hope for youth and growth.,469,positive,703.5
+1121,2025-10-31 02:44:00,Digital India initiative has connected rural areas.,148,neutral,148.0
+1122,2025-11-01 01:15:00,People appreciate the government's development efforts.,168,neutral,168.0
+1123,2025-10-29 12:43:00,India's economy is moving in the right direction.,40,positive,60.0
+1124,2025-10-29 02:26:00,Citizens applaud the government's clean energy plan.,132,positive,198.0
+1125,2025-11-01 08:33:00,PM's vision inspires entrepreneurs nationwide.,426,neutral,426.0
+1126,2025-10-29 22:47:00,Public support rises for infrastructure progress.,362,neutral,362.0
+1127,2025-10-29 20:11:00,People appreciate the government's development efforts.,274,neutral,274.0
+1128,2025-11-01 20:49:00,Modi's leadership is bringing real change to India.,461,positive,691.5
+1129,2025-10-29 10:28:00,People appreciate the government's development efforts.,39,neutral,39.0
+1130,2025-11-02 02:56:00,Government's new scheme helps small businesses.,457,neutral,457.0
+1131,2025-11-01 04:19:00,Modi's leadership is bringing real change to India.,156,positive,234.0
+1132,2025-10-30 07:46:00,Citizens applaud the government's clean energy plan.,399,positive,598.5
+1133,2025-10-30 06:23:00,India's economy is moving in the right direction.,151,positive,226.5
+1134,2025-10-31 09:06:00,Public support rises for infrastructure progress.,20,neutral,20.0
+1135,2025-11-01 12:43:00,Modi's leadership is bringing real change to India.,277,positive,415.5
+1136,2025-11-01 09:02:00,India's economy is moving in the right direction.,264,positive,396.0
+1137,2025-10-30 23:40:00,People appreciate the government's development efforts.,249,neutral,249.0
+1138,2025-10-29 16:51:00,India's economy is moving in the right direction.,97,positive,145.5
+1139,2025-10-29 19:31:00,Healthcare reforms are benefiting common people.,155,negative,77.5
+1140,2025-10-30 11:57:00,Citizens applaud the government's clean energy plan.,270,positive,405.0
+1141,2025-10-31 09:49:00,Citizens applaud the government's clean energy plan.,310,positive,465.0
+1142,2025-10-28 13:31:00,Citizens applaud the government's clean energy plan.,423,positive,634.5
+1143,2025-10-29 02:24:00,Public support rises for infrastructure progress.,265,neutral,265.0
+1144,2025-10-29 20:49:00,Public support rises for infrastructure progress.,442,neutral,442.0
+1145,2025-10-31 09:27:00,India's economy is moving in the right direction.,170,positive,255.0
+1146,2025-10-30 22:47:00,Healthcare reforms are benefiting common people.,58,negative,29.0
+1147,2025-11-01 02:14:00,Healthcare reforms are benefiting common people.,340,negative,170.0
+1148,2025-10-31 03:00:00,People appreciate the government's development efforts.,155,neutral,155.0
+1149,2025-10-30 10:16:00,Citizens applaud the government's clean energy plan.,181,positive,271.5
+1150,2025-10-31 12:22:00,Citizens applaud the government's clean energy plan.,194,positive,291.0
+1151,2025-10-29 05:36:00,Modi's leadership is bringing real change to India.,165,positive,247.5
+1152,2025-10-31 23:57:00,India's economy is moving in the right direction.,424,positive,636.0
+1153,2025-10-28 12:57:00,Public support rises for infrastructure progress.,91,neutral,91.0
+1154,2025-10-28 14:26:00,The new policy brings hope for youth and growth.,269,positive,403.5
+1155,2025-10-30 10:20:00,PM's vision inspires entrepreneurs nationwide.,407,neutral,407.0
+1156,2025-10-31 10:28:00,People appreciate the government's development efforts.,28,neutral,28.0
+1157,2025-10-31 08:29:00,Citizens applaud the government's clean energy plan.,483,positive,724.5
+1158,2025-11-01 16:06:00,Healthcare reforms are benefiting common people.,64,negative,32.0
+1159,2025-10-31 04:20:00,PM's vision inspires entrepreneurs nationwide.,287,neutral,287.0
+1160,2025-10-28 14:37:00,Citizens applaud the government's clean energy plan.,111,positive,166.5
+1161,2025-10-28 21:11:00,Public support rises for infrastructure progress.,136,neutral,136.0
+1162,2025-11-02 02:38:00,People appreciate the government's development efforts.,175,neutral,175.0
+1163,2025-10-30 03:37:00,Modi's leadership is bringing real change to India.,465,positive,697.5
+1164,2025-10-30 03:23:00,Citizens applaud the government's clean energy plan.,444,positive,666.0
+1165,2025-10-31 01:07:00,India's economy is moving in the right direction.,451,positive,676.5
+1166,2025-11-01 17:22:00,Healthcare reforms are benefiting common people.,482,negative,241.0
+1167,2025-10-28 09:00:00,India's economy is moving in the right direction.,71,positive,106.5
+1168,2025-10-31 08:13:00,PM's vision inspires entrepreneurs nationwide.,249,neutral,249.0
+1169,2025-10-30 03:49:00,Public support rises for infrastructure progress.,485,neutral,485.0
+1170,2025-10-29 21:13:00,Digital India initiative has connected rural areas.,164,neutral,164.0
+1171,2025-11-01 03:12:00,Government's new scheme helps small businesses.,92,neutral,92.0
+1172,2025-11-01 21:52:00,India's economy is moving in the right direction.,286,positive,429.0
+1173,2025-10-30 08:08:00,India's economy is moving in the right direction.,90,positive,135.0
+1174,2025-10-31 07:23:00,Modi's leadership is bringing real change to India.,47,positive,70.5
+1175,2025-10-31 06:57:00,India's economy is moving in the right direction.,441,positive,661.5
+1176,2025-10-30 10:04:00,Modi's leadership is bringing real change to India.,203,positive,304.5
+1177,2025-10-30 18:44:00,Government's new scheme helps small businesses.,157,neutral,157.0
+1178,2025-10-29 13:57:00,The new policy brings hope for youth and growth.,446,positive,669.0
+1179,2025-10-28 12:44:00,India's economy is moving in the right direction.,129,positive,193.5
+1180,2025-11-01 11:27:00,The new policy brings hope for youth and growth.,183,positive,274.5
+1181,2025-10-31 18:27:00,The new policy brings hope for youth and growth.,354,positive,531.0
+1182,2025-10-29 11:29:00,Government's new scheme helps small businesses.,483,neutral,483.0
+1183,2025-10-31 18:11:00,Government's new scheme helps small businesses.,111,neutral,111.0
+1184,2025-11-02 04:03:00,Healthcare reforms are benefiting common people.,24,negative,12.0
+1185,2025-10-29 17:18:00,People appreciate the government's development efforts.,273,neutral,273.0
+1186,2025-11-01 00:47:00,Citizens applaud the government's clean energy plan.,64,positive,96.0
+1187,2025-10-30 14:43:00,The new policy brings hope for youth and growth.,258,positive,387.0
+1188,2025-11-02 01:49:00,The new policy brings hope for youth and growth.,356,positive,534.0
+1189,2025-10-31 06:58:00,Citizens applaud the government's clean energy plan.,41,positive,61.5
+1190,2025-10-29 17:19:00,Public support rises for infrastructure progress.,371,neutral,371.0
+1191,2025-10-31 15:27:00,Digital India initiative has connected rural areas.,337,neutral,337.0
+1192,2025-11-01 14:44:00,Healthcare reforms are benefiting common people.,410,negative,205.0
+1193,2025-10-29 20:36:00,Public support rises for infrastructure progress.,117,neutral,117.0
+1194,2025-10-31 07:01:00,The new policy brings hope for youth and growth.,143,positive,214.5
+1195,2025-10-31 20:26:00,People appreciate the government's development efforts.,371,neutral,371.0
+1196,2025-11-01 20:58:00,Public support rises for infrastructure progress.,141,neutral,141.0
+1197,2025-10-30 09:54:00,Citizens applaud the government's clean energy plan.,193,positive,289.5
+1198,2025-10-31 10:24:00,People appreciate the government's development efforts.,42,neutral,42.0
+1199,2025-11-01 10:17:00,Modi's leadership is bringing real change to India.,96,positive,144.0
+1200,2025-10-29 13:35:00,Digital India initiative has connected rural areas.,69,neutral,69.0
+1201,2025-10-30 13:33:00,Citizens applaud the government's clean energy plan.,46,positive,69.0
+1202,2025-10-29 13:13:00,India's economy is moving in the right direction.,429,positive,643.5
+1203,2025-11-02 08:19:00,Government's new scheme helps small businesses.,372,neutral,372.0
+1204,2025-11-02 05:40:00,PM's vision inspires entrepreneurs nationwide.,118,neutral,118.0
+1205,2025-10-31 05:23:00,The new policy brings hope for youth and growth.,72,positive,108.0
+1206,2025-10-31 13:04:00,Digital India initiative has connected rural areas.,316,neutral,316.0
+1207,2025-10-29 02:37:00,Healthcare reforms are benefiting common people.,84,negative,42.0
+1208,2025-10-31 15:46:00,PM's vision inspires entrepreneurs nationwide.,330,neutral,330.0
+1209,2025-10-29 08:09:00,India's economy is moving in the right direction.,60,positive,90.0
+1210,2025-10-31 05:44:00,PM's vision inspires entrepreneurs nationwide.,328,neutral,328.0
+1211,2025-11-01 17:18:00,People appreciate the government's development efforts.,171,neutral,171.0
+1212,2025-10-31 21:04:00,Modi's leadership is bringing real change to India.,34,positive,51.0
+1213,2025-10-30 16:40:00,The new policy brings hope for youth and growth.,10,positive,15.0
+1214,2025-10-29 20:36:00,Modi's leadership is bringing real change to India.,60,positive,90.0
+1215,2025-11-01 23:28:00,People appreciate the government's development efforts.,317,neutral,317.0
+1216,2025-10-28 16:00:00,Public support rises for infrastructure progress.,55,neutral,55.0
+1217,2025-11-01 04:56:00,India's economy is moving in the right direction.,215,positive,322.5
+1218,2025-10-31 02:48:00,Citizens applaud the government's clean energy plan.,59,positive,88.5
+1219,2025-11-01 07:42:00,Digital India initiative has connected rural areas.,175,neutral,175.0
+1220,2025-10-29 11:29:00,Public support rises for infrastructure progress.,500,neutral,500.0
+1221,2025-11-01 07:53:00,People appreciate the government's development efforts.,499,neutral,499.0
+1222,2025-10-30 06:27:00,The new policy brings hope for youth and growth.,287,positive,430.5
+1223,2025-10-28 10:09:00,PM's vision inspires entrepreneurs nationwide.,382,neutral,382.0
+1224,2025-10-30 18:09:00,Healthcare reforms are benefiting common people.,138,negative,69.0
+1225,2025-10-31 22:32:00,Public support rises for infrastructure progress.,428,neutral,428.0
+1226,2025-11-01 14:10:00,People appreciate the government's development efforts.,416,neutral,416.0
+1227,2025-11-02 02:52:00,PM's vision inspires entrepreneurs nationwide.,200,neutral,200.0
+1228,2025-10-30 15:40:00,PM's vision inspires entrepreneurs nationwide.,358,neutral,358.0
+1229,2025-10-28 19:39:00,Government's new scheme helps small businesses.,406,neutral,406.0
+1230,2025-11-01 23:27:00,PM's vision inspires entrepreneurs nationwide.,376,neutral,376.0
+1231,2025-11-01 17:16:00,Digital India initiative has connected rural areas.,126,neutral,126.0
+1232,2025-10-31 06:05:00,Citizens applaud the government's clean energy plan.,26,positive,39.0
+1233,2025-10-31 21:44:00,PM's vision inspires entrepreneurs nationwide.,289,neutral,289.0
+1234,2025-11-02 05:48:00,India's economy is moving in the right direction.,386,positive,579.0
+1235,2025-10-31 10:26:00,Healthcare reforms are benefiting common people.,189,negative,94.5
+1236,2025-10-28 11:07:00,The new policy brings hope for youth and growth.,90,positive,135.0
+1237,2025-10-28 23:26:00,Modi's leadership is bringing real change to India.,284,positive,426.0
+1238,2025-10-31 23:00:00,Healthcare reforms are benefiting common people.,500,negative,250.0
+1239,2025-11-02 07:14:00,People appreciate the government's development efforts.,164,neutral,164.0
+1240,2025-10-31 13:49:00,The new policy brings hope for youth and growth.,34,positive,51.0
+1241,2025-10-31 23:43:00,The new policy brings hope for youth and growth.,43,positive,64.5
+1242,2025-10-29 22:33:00,Public support rises for infrastructure progress.,97,neutral,97.0
+1243,2025-11-01 06:13:00,India's economy is moving in the right direction.,159,positive,238.5
+1244,2025-11-01 15:33:00,PM's vision inspires entrepreneurs nationwide.,236,neutral,236.0
+1245,2025-10-29 11:27:00,Healthcare reforms are benefiting common people.,484,negative,242.0
+1246,2025-11-01 07:09:00,Government's new scheme helps small businesses.,397,neutral,397.0
+1247,2025-10-30 16:52:00,Government's new scheme helps small businesses.,432,neutral,432.0
+1248,2025-10-30 04:51:00,Public support rises for infrastructure progress.,66,neutral,66.0
+1249,2025-10-29 19:42:00,Healthcare reforms are benefiting common people.,440,negative,220.0
+1250,2025-11-02 05:32:00,Citizens applaud the government's clean energy plan.,388,positive,582.0
+1251,2025-10-30 07:09:00,Modi's leadership is bringing real change to India.,14,positive,21.0
+1252,2025-10-30 06:21:00,Digital India initiative has connected rural areas.,363,neutral,363.0
+1253,2025-10-31 19:07:00,Citizens applaud the government's clean energy plan.,422,positive,633.0
+1254,2025-11-01 02:38:00,Modi's leadership is bringing real change to India.,377,positive,565.5
+1255,2025-10-31 14:02:00,Citizens applaud the government's clean energy plan.,262,positive,393.0
+1256,2025-10-31 16:26:00,People appreciate the government's development efforts.,343,neutral,343.0
+1257,2025-10-31 06:57:00,Modi's leadership is bringing real change to India.,288,positive,432.0
+1258,2025-10-29 12:27:00,The new policy brings hope for youth and growth.,436,positive,654.0
+1259,2025-10-31 07:51:00,Citizens applaud the government's clean energy plan.,317,positive,475.5
+1260,2025-10-31 12:28:00,The new policy brings hope for youth and growth.,420,positive,630.0
+1261,2025-10-30 15:12:00,Healthcare reforms are benefiting common people.,190,negative,95.0
+1262,2025-10-29 14:46:00,Modi's leadership is bringing real change to India.,151,positive,226.5
+1263,2025-10-30 02:33:00,The new policy brings hope for youth and growth.,458,positive,687.0
+1264,2025-10-30 17:18:00,Citizens applaud the government's clean energy plan.,144,positive,216.0
+1265,2025-10-30 04:45:00,PM's vision inspires entrepreneurs nationwide.,376,neutral,376.0
+1266,2025-10-29 09:04:00,India's economy is moving in the right direction.,401,positive,601.5
+1267,2025-10-29 12:11:00,Citizens applaud the government's clean energy plan.,387,positive,580.5
+1268,2025-10-29 12:34:00,Citizens applaud the government's clean energy plan.,185,positive,277.5
+1269,2025-10-31 17:24:00,People appreciate the government's development efforts.,82,neutral,82.0
+1270,2025-10-29 20:35:00,People appreciate the government's development efforts.,168,neutral,168.0
+1271,2025-10-30 14:52:00,India's economy is moving in the right direction.,346,positive,519.0
+1272,2025-11-01 09:52:00,Digital India initiative has connected rural areas.,86,neutral,86.0
+1273,2025-10-31 08:22:00,Modi's leadership is bringing real change to India.,246,positive,369.0
+1274,2025-10-29 07:09:00,Healthcare reforms are benefiting common people.,190,negative,95.0
+1275,2025-11-01 00:07:00,Modi's leadership is bringing real change to India.,400,positive,600.0
+1276,2025-11-01 21:27:00,Modi's leadership is bringing real change to India.,309,positive,463.5
+1277,2025-10-31 14:54:00,Government's new scheme helps small businesses.,368,neutral,368.0
+1278,2025-11-01 09:28:00,Digital India initiative has connected rural areas.,158,neutral,158.0
+1279,2025-10-31 12:01:00,Government's new scheme helps small businesses.,65,neutral,65.0
+1280,2025-11-01 08:08:00,Digital India initiative has connected rural areas.,494,neutral,494.0
+1281,2025-11-01 23:31:00,India's economy is moving in the right direction.,379,positive,568.5
+1282,2025-10-29 19:05:00,Government's new scheme helps small businesses.,281,neutral,281.0
+1283,2025-10-28 17:16:00,The new policy brings hope for youth and growth.,364,positive,546.0
+1284,2025-10-29 22:27:00,Citizens applaud the government's clean energy plan.,336,positive,504.0
+1285,2025-10-30 01:17:00,Citizens applaud the government's clean energy plan.,46,positive,69.0
+1286,2025-11-02 04:04:00,Healthcare reforms are benefiting common people.,429,negative,214.5
+1287,2025-10-29 12:48:00,People appreciate the government's development efforts.,148,neutral,148.0
+1288,2025-10-28 18:05:00,PM's vision inspires entrepreneurs nationwide.,113,neutral,113.0
+1289,2025-10-31 17:54:00,Government's new scheme helps small businesses.,329,neutral,329.0
+1290,2025-10-30 05:33:00,Healthcare reforms are benefiting common people.,206,negative,103.0
+1291,2025-10-30 00:01:00,Public support rises for infrastructure progress.,336,neutral,336.0
+1292,2025-11-01 08:26:00,Government's new scheme helps small businesses.,278,neutral,278.0
+1293,2025-10-28 17:51:00,Public support rises for infrastructure progress.,307,neutral,307.0
+1294,2025-10-30 04:27:00,PM's vision inspires entrepreneurs nationwide.,283,neutral,283.0
+1295,2025-10-29 02:42:00,Government's new scheme helps small businesses.,75,neutral,75.0
+1296,2025-10-28 17:34:00,Government's new scheme helps small businesses.,313,neutral,313.0
+1297,2025-10-29 15:13:00,The new policy brings hope for youth and growth.,448,positive,672.0
+1298,2025-10-31 20:48:00,Public support rises for infrastructure progress.,242,neutral,242.0
+1299,2025-10-30 14:10:00,Citizens applaud the government's clean energy plan.,41,positive,61.5
+1300,2025-11-01 16:45:00,Digital India initiative has connected rural areas.,16,neutral,16.0
+1301,2025-10-31 19:49:00,Government's new scheme helps small businesses.,453,neutral,453.0
+1302,2025-10-30 03:09:00,The new policy brings hope for youth and growth.,20,positive,30.0
+1303,2025-10-29 11:27:00,Public support rises for infrastructure progress.,298,neutral,298.0
+1304,2025-10-29 05:20:00,India's economy is moving in the right direction.,500,positive,750.0
+1305,2025-10-29 18:48:00,Citizens applaud the government's clean energy plan.,441,positive,661.5
+1306,2025-11-01 19:19:00,Digital India initiative has connected rural areas.,485,neutral,485.0
+1307,2025-10-30 21:47:00,India's economy is moving in the right direction.,271,positive,406.5
+1308,2025-11-02 03:23:00,Digital India initiative has connected rural areas.,392,neutral,392.0
+1309,2025-10-29 02:58:00,Citizens applaud the government's clean energy plan.,117,positive,175.5
+1310,2025-10-31 00:22:00,Healthcare reforms are benefiting common people.,442,negative,221.0
+1311,2025-10-31 14:13:00,People appreciate the government's development efforts.,406,neutral,406.0
+1312,2025-10-29 07:35:00,Healthcare reforms are benefiting common people.,364,negative,182.0
+1313,2025-10-30 01:31:00,People appreciate the government's development efforts.,219,neutral,219.0
+1314,2025-10-30 03:17:00,Public support rises for infrastructure progress.,484,neutral,484.0
+1315,2025-10-30 02:51:00,Government's new scheme helps small businesses.,408,neutral,408.0
+1316,2025-10-30 05:05:00,People appreciate the government's development efforts.,116,neutral,116.0
+1317,2025-11-01 14:06:00,Public support rises for infrastructure progress.,405,neutral,405.0
+1318,2025-11-01 07:46:00,The new policy brings hope for youth and growth.,355,positive,532.5
+1319,2025-10-30 17:36:00,Healthcare reforms are benefiting common people.,115,negative,57.5
+1320,2025-10-31 17:49:00,Digital India initiative has connected rural areas.,101,neutral,101.0
+1321,2025-10-30 00:14:00,Public support rises for infrastructure progress.,150,neutral,150.0
+1322,2025-10-28 23:35:00,People appreciate the government's development efforts.,365,neutral,365.0
+1323,2025-10-28 14:25:00,Citizens applaud the government's clean energy plan.,184,positive,276.0
+1324,2025-10-30 06:55:00,Modi's leadership is bringing real change to India.,186,positive,279.0
+1325,2025-10-28 11:42:00,Citizens applaud the government's clean energy plan.,251,positive,376.5
+1326,2025-10-30 18:14:00,Government's new scheme helps small businesses.,498,neutral,498.0
+1327,2025-10-29 14:47:00,People appreciate the government's development efforts.,227,neutral,227.0
+1328,2025-10-28 23:34:00,PM's vision inspires entrepreneurs nationwide.,306,neutral,306.0
+1329,2025-10-29 20:59:00,Digital India initiative has connected rural areas.,44,neutral,44.0
+1330,2025-10-30 00:59:00,The new policy brings hope for youth and growth.,126,positive,189.0
+1331,2025-10-30 08:33:00,PM's vision inspires entrepreneurs nationwide.,219,neutral,219.0
+1332,2025-10-29 15:07:00,Modi's leadership is bringing real change to India.,217,positive,325.5
+1333,2025-11-02 06:17:00,PM's vision inspires entrepreneurs nationwide.,367,neutral,367.0
+1334,2025-11-02 06:53:00,People express anger over the recent budget cuts.,113,negative,56.5
+1335,2025-10-31 04:44:00,Public disappointed by the delay in welfare delivery.,304,negative,152.0
+1336,2025-10-31 11:32:00,Rising fuel prices anger citizens across states.,192,negative,96.0
+1337,2025-10-29 22:48:00,Opposition criticizes the government over unemployment.,212,neutral,212.0
+1338,2025-10-30 05:07:00,Citizens frustrated over corruption allegations.,311,negative,155.5
+1339,2025-11-02 00:29:00,Opposition slams government for ignoring farmers.,190,neutral,190.0
+1340,2025-10-30 07:49:00,Citizens frustrated over corruption allegations.,61,negative,30.5
+1341,2025-11-01 02:14:00,People express anger over the recent budget cuts.,381,negative,190.5
+1342,2025-10-30 08:44:00,Critics claim the government failed to control inflation.,244,negative,122.0
+1343,2025-10-28 20:48:00,Critics say the administration lacks transparency.,499,neutral,499.0
+1344,2025-10-31 19:25:00,Youth unhappy with limited job opportunities.,141,negative,70.5
+1345,2025-11-01 09:09:00,Public disappointed by the delay in welfare delivery.,109,negative,54.5
+1346,2025-10-31 04:25:00,Public disappointed by the delay in welfare delivery.,344,negative,172.0
+1347,2025-10-28 16:48:00,People express anger over the recent budget cuts.,468,negative,234.0
+1348,2025-10-29 09:51:00,Critics claim the government failed to control inflation.,377,negative,188.5
+1349,2025-10-30 18:17:00,People express anger over the recent budget cuts.,216,negative,108.0
+1350,2025-10-31 23:27:00,Youth unhappy with limited job opportunities.,98,negative,49.0
+1351,2025-10-31 04:08:00,People express anger over the recent budget cuts.,16,negative,8.0
+1352,2025-10-30 08:51:00,Opposition criticizes the government over unemployment.,76,neutral,76.0
+1353,2025-10-31 04:00:00,People express anger over the recent budget cuts.,64,negative,32.0
+1354,2025-11-01 18:26:00,People protest against new tax policies.,297,positive,445.5
+1355,2025-10-31 10:03:00,Youth unhappy with limited job opportunities.,72,negative,36.0
+1356,2025-11-01 15:14:00,Critics claim the government failed to control inflation.,22,negative,11.0
+1357,2025-11-02 01:39:00,Public disappointed by the delay in welfare delivery.,254,negative,127.0
+1358,2025-10-29 23:06:00,Public disappointed by the delay in welfare delivery.,477,negative,238.5
+1359,2025-10-29 12:00:00,Opposition slams government for ignoring farmers.,160,neutral,160.0
+1360,2025-11-01 23:24:00,Opposition criticizes the government over unemployment.,73,neutral,73.0
+1361,2025-10-29 04:39:00,Critics say the administration lacks transparency.,276,neutral,276.0
+1362,2025-10-28 22:55:00,Citizens frustrated over corruption allegations.,51,negative,25.5
+1363,2025-11-02 03:07:00,Public disappointed by the delay in welfare delivery.,139,negative,69.5
+1364,2025-10-28 17:57:00,Critics say the administration lacks transparency.,380,neutral,380.0
+1365,2025-10-30 11:50:00,Public disappointed by the delay in welfare delivery.,243,negative,121.5
+1366,2025-10-30 01:43:00,Opposition slams government for ignoring farmers.,242,neutral,242.0
+1367,2025-10-30 21:19:00,Opposition criticizes the government over unemployment.,156,neutral,156.0
+1368,2025-10-30 03:45:00,Opposition slams government for ignoring farmers.,213,neutral,213.0
+1369,2025-10-28 13:03:00,People protest against new tax policies.,383,positive,574.5
+1370,2025-11-01 23:55:00,Public disappointed by the delay in welfare delivery.,224,negative,112.0
+1371,2025-10-31 18:40:00,Critics say the administration lacks transparency.,16,neutral,16.0
+1372,2025-11-01 04:42:00,Critics say the administration lacks transparency.,54,neutral,54.0
+1373,2025-11-02 02:32:00,Opposition criticizes the government over unemployment.,199,neutral,199.0
+1374,2025-10-28 15:41:00,Youth unhappy with limited job opportunities.,41,negative,20.5
+1375,2025-10-31 14:17:00,Public disappointed by the delay in welfare delivery.,65,negative,32.5
+1376,2025-10-30 13:21:00,Opposition slams government for ignoring farmers.,198,neutral,198.0
+1377,2025-10-30 16:38:00,Critics claim the government failed to control inflation.,78,negative,39.0
+1378,2025-10-30 03:21:00,Critics say the administration lacks transparency.,389,neutral,389.0
+1379,2025-11-01 09:14:00,Rising fuel prices anger citizens across states.,481,negative,240.5
+1380,2025-10-29 12:35:00,Rising fuel prices anger citizens across states.,62,negative,31.0
+1381,2025-10-28 20:06:00,Opposition criticizes the government over unemployment.,328,neutral,328.0
+1382,2025-11-01 12:13:00,People express anger over the recent budget cuts.,260,negative,130.0
+1383,2025-10-31 10:58:00,Citizens frustrated over corruption allegations.,68,negative,34.0
+1384,2025-10-31 22:40:00,Opposition criticizes the government over unemployment.,360,neutral,360.0
+1385,2025-10-31 01:43:00,Youth unhappy with limited job opportunities.,308,negative,154.0
+1386,2025-10-29 06:02:00,Citizens frustrated over corruption allegations.,271,negative,135.5
+1387,2025-10-31 08:28:00,Public disappointed by the delay in welfare delivery.,98,negative,49.0
+1388,2025-11-01 16:54:00,Critics claim the government failed to control inflation.,465,negative,232.5
+1389,2025-10-29 15:16:00,Critics claim the government failed to control inflation.,417,negative,208.5
+1390,2025-11-02 03:23:00,Opposition criticizes the government over unemployment.,170,neutral,170.0
+1391,2025-11-01 01:38:00,Rising fuel prices anger citizens across states.,134,negative,67.0
+1392,2025-10-31 02:21:00,People protest against new tax policies.,410,positive,615.0
+1393,2025-10-31 20:59:00,People express anger over the recent budget cuts.,65,negative,32.5
+1394,2025-10-28 09:07:00,People protest against new tax policies.,55,positive,82.5
+1395,2025-10-30 15:46:00,Opposition criticizes the government over unemployment.,493,neutral,493.0
+1396,2025-10-29 08:59:00,Youth unhappy with limited job opportunities.,44,negative,22.0
+1397,2025-10-31 15:24:00,Opposition slams government for ignoring farmers.,347,neutral,347.0
+1398,2025-10-30 14:20:00,People express anger over the recent budget cuts.,253,negative,126.5
+1399,2025-10-31 19:30:00,Youth unhappy with limited job opportunities.,231,negative,115.5
+1400,2025-11-02 04:22:00,Youth unhappy with limited job opportunities.,325,negative,162.5
+1401,2025-11-01 12:13:00,Opposition criticizes the government over unemployment.,432,neutral,432.0
+1402,2025-10-29 23:47:00,Rising fuel prices anger citizens across states.,141,negative,70.5
+1403,2025-10-31 21:42:00,Youth unhappy with limited job opportunities.,264,negative,132.0
+1404,2025-11-02 07:31:00,Opposition slams government for ignoring farmers.,202,neutral,202.0
+1405,2025-10-31 04:52:00,Opposition slams government for ignoring farmers.,392,neutral,392.0
+1406,2025-10-31 20:53:00,Opposition slams government for ignoring farmers.,460,neutral,460.0
+1407,2025-10-31 12:08:00,Critics claim the government failed to control inflation.,286,negative,143.0
+1408,2025-11-01 07:26:00,Critics say the administration lacks transparency.,41,neutral,41.0
+1409,2025-10-30 20:13:00,Critics say the administration lacks transparency.,78,neutral,78.0
+1410,2025-10-28 09:30:00,Youth unhappy with limited job opportunities.,240,negative,120.0
+1411,2025-10-28 11:45:00,Youth unhappy with limited job opportunities.,78,negative,39.0
+1412,2025-10-28 16:39:00,Opposition criticizes the government over unemployment.,379,neutral,379.0
+1413,2025-11-02 05:12:00,Critics say the administration lacks transparency.,349,neutral,349.0
+1414,2025-10-29 14:28:00,Critics say the administration lacks transparency.,180,neutral,180.0
+1415,2025-10-31 04:34:00,Youth unhappy with limited job opportunities.,439,negative,219.5
+1416,2025-11-01 22:53:00,Youth unhappy with limited job opportunities.,408,negative,204.0
+1417,2025-10-31 05:42:00,Opposition criticizes the government over unemployment.,144,neutral,144.0
+1418,2025-10-30 02:58:00,Opposition criticizes the government over unemployment.,135,neutral,135.0
+1419,2025-11-01 02:42:00,Critics claim the government failed to control inflation.,320,negative,160.0
+1420,2025-10-31 19:59:00,People express anger over the recent budget cuts.,232,negative,116.0
+1421,2025-10-29 03:47:00,Opposition slams government for ignoring farmers.,145,neutral,145.0
+1422,2025-11-01 15:11:00,Youth unhappy with limited job opportunities.,53,negative,26.5
+1423,2025-10-29 05:00:00,Citizens frustrated over corruption allegations.,103,negative,51.5
+1424,2025-10-29 04:18:00,Public disappointed by the delay in welfare delivery.,469,negative,234.5
+1425,2025-10-29 15:01:00,Opposition slams government for ignoring farmers.,204,neutral,204.0
+1426,2025-10-30 16:02:00,Opposition slams government for ignoring farmers.,262,neutral,262.0
+1427,2025-10-31 21:16:00,Citizens frustrated over corruption allegations.,452,negative,226.0
+1428,2025-11-02 06:54:00,Critics say the administration lacks transparency.,491,neutral,491.0
+1429,2025-10-31 21:27:00,Critics claim the government failed to control inflation.,325,negative,162.5
+1430,2025-11-01 00:41:00,Youth unhappy with limited job opportunities.,210,negative,105.0
+1431,2025-10-31 16:27:00,Critics claim the government failed to control inflation.,16,negative,8.0
+1432,2025-10-28 17:31:00,Critics claim the government failed to control inflation.,331,negative,165.5
+1433,2025-11-02 04:03:00,Youth unhappy with limited job opportunities.,214,negative,107.0
+1434,2025-10-31 05:35:00,Public disappointed by the delay in welfare delivery.,370,negative,185.0
+1435,2025-10-31 10:10:00,Rising fuel prices anger citizens across states.,270,negative,135.0
+1436,2025-10-31 04:54:00,Citizens frustrated over corruption allegations.,193,negative,96.5
+1437,2025-10-28 09:14:00,Critics say the administration lacks transparency.,461,neutral,461.0
+1438,2025-10-31 17:34:00,Youth unhappy with limited job opportunities.,180,negative,90.0
+1439,2025-11-02 06:24:00,People protest against new tax policies.,10,positive,15.0
+1440,2025-10-29 16:43:00,Rising fuel prices anger citizens across states.,478,negative,239.0
+1441,2025-11-01 15:08:00,Youth unhappy with limited job opportunities.,240,negative,120.0
+1442,2025-10-30 01:44:00,People express anger over the recent budget cuts.,59,negative,29.5
+1443,2025-10-29 13:38:00,Public disappointed by the delay in welfare delivery.,53,negative,26.5
+1444,2025-11-01 14:55:00,People express anger over the recent budget cuts.,118,negative,59.0
+1445,2025-10-29 19:27:00,Critics say the administration lacks transparency.,74,neutral,74.0
+1446,2025-10-31 12:24:00,Opposition slams government for ignoring farmers.,296,neutral,296.0
+1447,2025-11-01 08:28:00,People protest against new tax policies.,392,positive,588.0
+1448,2025-10-30 23:07:00,Public disappointed by the delay in welfare delivery.,61,negative,30.5
+1449,2025-10-31 13:44:00,Youth unhappy with limited job opportunities.,423,negative,211.5
+1450,2025-10-30 18:32:00,Critics claim the government failed to control inflation.,239,negative,119.5
+1451,2025-11-02 00:08:00,Critics say the administration lacks transparency.,192,neutral,192.0
+1452,2025-11-01 06:56:00,People express anger over the recent budget cuts.,403,negative,201.5
+1453,2025-10-30 21:51:00,Public disappointed by the delay in welfare delivery.,397,negative,198.5
+1454,2025-10-29 16:31:00,Critics claim the government failed to control inflation.,318,negative,159.0
+1455,2025-10-29 07:17:00,Youth unhappy with limited job opportunities.,313,negative,156.5
+1456,2025-10-30 18:09:00,Opposition criticizes the government over unemployment.,468,neutral,468.0
+1457,2025-10-30 03:14:00,Critics claim the government failed to control inflation.,495,negative,247.5
+1458,2025-10-31 02:31:00,Opposition slams government for ignoring farmers.,322,neutral,322.0
+1459,2025-10-28 18:22:00,Critics say the administration lacks transparency.,90,neutral,90.0
+1460,2025-10-31 22:21:00,Citizens frustrated over corruption allegations.,62,negative,31.0
+1461,2025-10-31 18:03:00,Critics say the administration lacks transparency.,86,neutral,86.0
+1462,2025-11-02 05:25:00,Critics say the administration lacks transparency.,243,neutral,243.0
+1463,2025-11-01 18:51:00,People express anger over the recent budget cuts.,267,negative,133.5
+1464,2025-10-31 18:12:00,People protest against new tax policies.,34,positive,51.0
+1465,2025-11-01 23:01:00,Rising fuel prices anger citizens across states.,198,negative,99.0
+1466,2025-11-01 11:11:00,People protest against new tax policies.,247,positive,370.5
+1467,2025-10-30 03:22:00,Critics claim the government failed to control inflation.,150,negative,75.0
+1468,2025-10-31 04:44:00,Youth unhappy with limited job opportunities.,240,negative,120.0
+1469,2025-11-02 08:33:00,Critics say the administration lacks transparency.,56,neutral,56.0
+1470,2025-10-29 22:10:00,Critics say the administration lacks transparency.,186,neutral,186.0
+1471,2025-11-01 16:24:00,Critics say the administration lacks transparency.,37,neutral,37.0
+1472,2025-11-02 08:54:00,Citizens frustrated over corruption allegations.,496,negative,248.0
+1473,2025-10-28 19:31:00,People express anger over the recent budget cuts.,475,negative,237.5
+1474,2025-10-31 12:07:00,Opposition slams government for ignoring farmers.,136,neutral,136.0
+1475,2025-10-29 12:35:00,People express anger over the recent budget cuts.,352,negative,176.0
+1476,2025-10-29 05:56:00,Opposition criticizes the government over unemployment.,346,neutral,346.0
+1477,2025-11-01 19:19:00,Citizens frustrated over corruption allegations.,130,negative,65.0
+1478,2025-10-31 13:16:00,Opposition criticizes the government over unemployment.,401,neutral,401.0
+1479,2025-10-29 18:57:00,Youth unhappy with limited job opportunities.,323,negative,161.5
+1480,2025-11-02 01:52:00,Opposition criticizes the government over unemployment.,420,neutral,420.0
+1481,2025-11-02 04:52:00,Critics claim the government failed to control inflation.,122,negative,61.0
+1482,2025-10-28 20:13:00,Critics say the administration lacks transparency.,434,neutral,434.0
+1483,2025-10-31 19:08:00,Citizens frustrated over corruption allegations.,394,negative,197.0
+1484,2025-10-29 21:27:00,Opposition slams government for ignoring farmers.,101,neutral,101.0
+1485,2025-10-31 10:37:00,Rising fuel prices anger citizens across states.,70,negative,35.0
+1486,2025-10-30 03:37:00,Critics say the administration lacks transparency.,435,neutral,435.0
+1487,2025-11-01 18:51:00,Rising fuel prices anger citizens across states.,26,negative,13.0
+1488,2025-10-30 17:50:00,Critics claim the government failed to control inflation.,180,negative,90.0
+1489,2025-11-01 22:17:00,Citizens frustrated over corruption allegations.,151,negative,75.5
+1490,2025-10-30 17:34:00,Opposition slams government for ignoring farmers.,491,neutral,491.0
+1491,2025-11-01 14:33:00,Citizens frustrated over corruption allegations.,470,negative,235.0
+1492,2025-10-30 10:25:00,People protest against new tax policies.,49,positive,73.5
+1493,2025-10-29 18:58:00,Critics claim the government failed to control inflation.,404,negative,202.0
+1494,2025-11-02 04:57:00,Rising fuel prices anger citizens across states.,104,negative,52.0
+1495,2025-10-29 23:05:00,Opposition slams government for ignoring farmers.,88,neutral,88.0
+1496,2025-11-01 23:06:00,Critics claim the government failed to control inflation.,98,negative,49.0
+1497,2025-10-31 18:37:00,Rising fuel prices anger citizens across states.,280,negative,140.0
+1498,2025-10-31 09:08:00,Opposition slams government for ignoring farmers.,82,neutral,82.0
+1499,2025-11-01 10:34:00,Opposition criticizes the government over unemployment.,165,neutral,165.0
+1500,2025-10-30 01:38:00,Opposition criticizes the government over unemployment.,352,neutral,352.0
+1501,2025-11-02 01:50:00,Youth unhappy with limited job opportunities.,66,negative,33.0
+1502,2025-11-01 04:39:00,People express anger over the recent budget cuts.,332,negative,166.0
+1503,2025-11-01 13:57:00,Critics say the administration lacks transparency.,446,neutral,446.0
+1504,2025-10-28 14:25:00,Youth unhappy with limited job opportunities.,469,negative,234.5
+1505,2025-11-01 01:25:00,Critics say the administration lacks transparency.,314,neutral,314.0
+1506,2025-11-02 01:41:00,Opposition criticizes the government over unemployment.,17,neutral,17.0
+1507,2025-10-28 13:46:00,Opposition criticizes the government over unemployment.,86,neutral,86.0
+1508,2025-10-29 00:21:00,Citizens frustrated over corruption allegations.,499,negative,249.5
+1509,2025-11-02 03:01:00,People protest against new tax policies.,126,positive,189.0
+1510,2025-10-28 17:25:00,Opposition criticizes the government over unemployment.,471,neutral,471.0
+1511,2025-10-29 23:41:00,People express anger over the recent budget cuts.,136,negative,68.0
+1512,2025-11-01 04:27:00,Opposition criticizes the government over unemployment.,326,neutral,326.0
+1513,2025-10-31 15:56:00,Critics say the administration lacks transparency.,406,neutral,406.0
+1514,2025-10-30 15:00:00,People express anger over the recent budget cuts.,39,negative,19.5
+1515,2025-10-31 16:34:00,Youth unhappy with limited job opportunities.,208,negative,104.0
+1516,2025-10-28 21:20:00,Opposition criticizes the government over unemployment.,106,neutral,106.0
+1517,2025-10-28 20:33:00,Public disappointed by the delay in welfare delivery.,338,negative,169.0
+1518,2025-11-01 17:29:00,Opposition slams government for ignoring farmers.,184,neutral,184.0
+1519,2025-10-28 09:12:00,Critics claim the government failed to control inflation.,285,negative,142.5
+1520,2025-10-28 16:06:00,Citizens frustrated over corruption allegations.,117,negative,58.5
+1521,2025-10-29 19:40:00,People express anger over the recent budget cuts.,402,negative,201.0
+1522,2025-11-01 22:44:00,Public disappointed by the delay in welfare delivery.,412,negative,206.0
+1523,2025-10-28 16:16:00,Critics claim the government failed to control inflation.,476,negative,238.0
+1524,2025-11-01 21:12:00,Critics claim the government failed to control inflation.,486,negative,243.0
+1525,2025-10-29 12:58:00,Rising fuel prices anger citizens across states.,452,negative,226.0
+1526,2025-11-01 18:20:00,Critics claim the government failed to control inflation.,471,negative,235.5
+1527,2025-10-31 18:01:00,Youth unhappy with limited job opportunities.,471,negative,235.5
+1528,2025-10-30 20:34:00,Opposition slams government for ignoring farmers.,249,neutral,249.0
+1529,2025-10-29 04:15:00,Citizens frustrated over corruption allegations.,302,negative,151.0
+1530,2025-10-30 02:36:00,Critics claim the government failed to control inflation.,107,negative,53.5
+1531,2025-11-02 04:08:00,Opposition slams government for ignoring farmers.,462,neutral,462.0
+1532,2025-11-01 01:03:00,Opposition slams government for ignoring farmers.,454,neutral,454.0
+1533,2025-10-28 11:54:00,Public disappointed by the delay in welfare delivery.,17,negative,8.5
+1534,2025-10-29 11:20:00,Critics claim the government failed to control inflation.,28,negative,14.0
+1535,2025-10-28 12:50:00,People express anger over the recent budget cuts.,97,negative,48.5
+1536,2025-10-30 04:36:00,Public disappointed by the delay in welfare delivery.,272,negative,136.0
+1537,2025-11-01 17:18:00,Opposition criticizes the government over unemployment.,14,neutral,14.0
+1538,2025-10-30 23:15:00,Citizens frustrated over corruption allegations.,279,negative,139.5
+1539,2025-10-29 20:20:00,Youth unhappy with limited job opportunities.,121,negative,60.5
+1540,2025-10-30 22:22:00,Opposition slams government for ignoring farmers.,425,neutral,425.0
+1541,2025-10-28 15:47:00,Critics claim the government failed to control inflation.,124,negative,62.0
+1542,2025-11-01 05:29:00,Public disappointed by the delay in welfare delivery.,117,negative,58.5
+1543,2025-10-30 13:41:00,Citizens frustrated over corruption allegations.,57,negative,28.5
+1544,2025-10-30 10:33:00,Youth unhappy with limited job opportunities.,318,negative,159.0
+1545,2025-10-29 23:13:00,Youth unhappy with limited job opportunities.,197,negative,98.5
+1546,2025-11-01 15:20:00,People protest against new tax policies.,220,positive,330.0
+1547,2025-10-31 06:27:00,Public disappointed by the delay in welfare delivery.,250,negative,125.0
+1548,2025-11-01 11:22:00,Opposition criticizes the government over unemployment.,469,neutral,469.0
+1549,2025-10-30 22:40:00,Citizens frustrated over corruption allegations.,435,negative,217.5
+1550,2025-11-01 21:39:00,Opposition slams government for ignoring farmers.,201,neutral,201.0
+1551,2025-10-31 17:28:00,Critics say the administration lacks transparency.,280,neutral,280.0
+1552,2025-10-31 17:59:00,Opposition slams government for ignoring farmers.,357,neutral,357.0
+1553,2025-11-01 12:11:00,People express anger over the recent budget cuts.,323,negative,161.5
+1554,2025-10-30 12:27:00,Citizens frustrated over corruption allegations.,347,negative,173.5
+1555,2025-10-31 03:10:00,Public disappointed by the delay in welfare delivery.,409,negative,204.5
+1556,2025-10-28 16:48:00,Critics say the administration lacks transparency.,496,neutral,496.0
+1557,2025-10-29 00:57:00,People protest against new tax policies.,23,positive,34.5
+1558,2025-11-02 05:50:00,Citizens frustrated over corruption allegations.,151,negative,75.5
+1559,2025-10-30 16:46:00,Citizens frustrated over corruption allegations.,331,negative,165.5
+1560,2025-10-29 07:54:00,Opposition criticizes the government over unemployment.,146,neutral,146.0
+1561,2025-11-01 22:44:00,Citizens frustrated over corruption allegations.,373,negative,186.5
+1562,2025-10-30 07:23:00,Critics say the administration lacks transparency.,487,neutral,487.0
+1563,2025-10-28 10:48:00,Public disappointed by the delay in welfare delivery.,195,negative,97.5
+1564,2025-10-29 11:16:00,Public disappointed by the delay in welfare delivery.,38,negative,19.0
+1565,2025-10-31 02:46:00,Rising fuel prices anger citizens across states.,495,negative,247.5
+1566,2025-10-29 22:36:00,People protest against new tax policies.,302,positive,453.0
+1567,2025-10-31 20:29:00,Critics say the administration lacks transparency.,490,neutral,490.0
+1568,2025-10-28 17:38:00,Opposition criticizes the government over unemployment.,83,neutral,83.0
+1569,2025-10-31 05:19:00,Public disappointed by the delay in welfare delivery.,362,negative,181.0
+1570,2025-10-29 18:28:00,Critics say the administration lacks transparency.,376,neutral,376.0
+1571,2025-10-28 17:17:00,Public disappointed by the delay in welfare delivery.,303,negative,151.5
+1572,2025-10-28 15:55:00,People protest against new tax policies.,422,positive,633.0
+1573,2025-10-30 07:35:00,Youth unhappy with limited job opportunities.,76,negative,38.0
+1574,2025-11-01 18:46:00,Rising fuel prices anger citizens across states.,390,negative,195.0
+1575,2025-10-29 03:35:00,People protest against new tax policies.,298,positive,447.0
+1576,2025-11-01 18:11:00,People express anger over the recent budget cuts.,330,negative,165.0
+1577,2025-10-29 22:43:00,Rising fuel prices anger citizens across states.,169,negative,84.5
+1578,2025-10-31 12:13:00,Opposition slams government for ignoring farmers.,490,neutral,490.0
+1579,2025-11-01 07:56:00,People protest against new tax policies.,194,positive,291.0
+1580,2025-10-28 10:32:00,Opposition criticizes the government over unemployment.,319,neutral,319.0
+1581,2025-10-29 05:13:00,Opposition slams government for ignoring farmers.,101,neutral,101.0
+1582,2025-10-30 23:54:00,Youth unhappy with limited job opportunities.,314,negative,157.0
+1583,2025-10-30 21:15:00,Public disappointed by the delay in welfare delivery.,56,negative,28.0
+1584,2025-10-29 18:52:00,People express anger over the recent budget cuts.,413,negative,206.5
+1585,2025-10-31 23:55:00,Critics claim the government failed to control inflation.,120,negative,60.0
+1586,2025-11-01 10:01:00,Youth unhappy with limited job opportunities.,107,negative,53.5
+1587,2025-10-28 21:21:00,Public disappointed by the delay in welfare delivery.,74,negative,37.0
+1588,2025-10-29 19:30:00,Rising fuel prices anger citizens across states.,253,negative,126.5
+1589,2025-11-01 13:38:00,Citizens frustrated over corruption allegations.,489,negative,244.5
+1590,2025-10-29 12:53:00,People protest against new tax policies.,368,positive,552.0
+1591,2025-10-30 20:40:00,Citizens frustrated over corruption allegations.,343,negative,171.5
+1592,2025-10-29 19:31:00,Opposition criticizes the government over unemployment.,118,neutral,118.0
+1593,2025-10-29 16:38:00,People express anger over the recent budget cuts.,17,negative,8.5
+1594,2025-11-01 22:01:00,Public disappointed by the delay in welfare delivery.,41,negative,20.5
+1595,2025-10-29 12:12:00,Citizens frustrated over corruption allegations.,227,negative,113.5
+1596,2025-10-29 09:13:00,People express anger over the recent budget cuts.,392,negative,196.0
+1597,2025-10-30 16:01:00,Citizens frustrated over corruption allegations.,70,negative,35.0
+1598,2025-10-31 03:52:00,People protest against new tax policies.,376,positive,564.0
+1599,2025-11-01 09:08:00,Critics say the administration lacks transparency.,320,neutral,320.0
+1600,2025-10-29 13:24:00,People express anger over the recent budget cuts.,204,negative,102.0
+1601,2025-11-01 02:01:00,Opposition slams government for ignoring farmers.,27,neutral,27.0
+1602,2025-11-01 02:39:00,Opposition slams government for ignoring farmers.,49,neutral,49.0
+1603,2025-10-28 23:29:00,Opposition criticizes the government over unemployment.,326,neutral,326.0
+1604,2025-10-29 08:05:00,Public disappointed by the delay in welfare delivery.,273,negative,136.5
+1605,2025-10-31 07:17:00,Critics say the administration lacks transparency.,442,neutral,442.0
+1606,2025-10-30 00:46:00,Opposition slams government for ignoring farmers.,73,neutral,73.0
+1607,2025-10-29 18:57:00,Opposition criticizes the government over unemployment.,339,neutral,339.0
+1608,2025-10-28 16:54:00,People express anger over the recent budget cuts.,247,negative,123.5
+1609,2025-11-01 12:01:00,Opposition criticizes the government over unemployment.,355,neutral,355.0
+1610,2025-11-02 04:17:00,Critics say the administration lacks transparency.,135,neutral,135.0
+1611,2025-10-31 23:53:00,Citizens frustrated over corruption allegations.,168,negative,84.0
+1612,2025-10-28 15:18:00,Youth unhappy with limited job opportunities.,476,negative,238.0
+1613,2025-10-31 02:24:00,Rising fuel prices anger citizens across states.,129,negative,64.5
+1614,2025-10-30 06:40:00,Critics claim the government failed to control inflation.,465,negative,232.5
+1615,2025-10-30 03:43:00,Rising fuel prices anger citizens across states.,315,negative,157.5
+1616,2025-10-30 03:41:00,People express anger over the recent budget cuts.,356,negative,178.0
+1617,2025-10-29 00:14:00,Critics say the administration lacks transparency.,380,neutral,380.0
+1618,2025-11-01 00:24:00,Public disappointed by the delay in welfare delivery.,273,negative,136.5
+1619,2025-10-29 10:54:00,Youth unhappy with limited job opportunities.,198,negative,99.0
+1620,2025-10-29 12:46:00,Opposition criticizes the government over unemployment.,466,neutral,466.0
+1621,2025-11-01 06:49:00,Opposition slams government for ignoring farmers.,108,neutral,108.0
+1622,2025-10-30 01:21:00,Public disappointed by the delay in welfare delivery.,354,negative,177.0
+1623,2025-10-30 01:43:00,Public disappointed by the delay in welfare delivery.,62,negative,31.0
+1624,2025-10-31 04:29:00,People express anger over the recent budget cuts.,481,negative,240.5
+1625,2025-10-30 00:59:00,People express anger over the recent budget cuts.,322,negative,161.0
+1626,2025-10-29 05:03:00,Critics claim the government failed to control inflation.,351,negative,175.5
+1627,2025-10-31 02:51:00,Critics say the administration lacks transparency.,32,neutral,32.0
+1628,2025-10-31 05:46:00,Youth unhappy with limited job opportunities.,227,negative,113.5
+1629,2025-10-31 23:28:00,Youth unhappy with limited job opportunities.,207,negative,103.5
+1630,2025-10-29 08:26:00,Critics claim the government failed to control inflation.,428,negative,214.0
+1631,2025-11-01 08:10:00,Rising fuel prices anger citizens across states.,482,negative,241.0
+1632,2025-10-28 19:42:00,People express anger over the recent budget cuts.,387,negative,193.5
+1633,2025-10-31 11:18:00,Youth unhappy with limited job opportunities.,313,negative,156.5
+1634,2025-10-29 16:15:00,Youth unhappy with limited job opportunities.,404,negative,202.0
+1635,2025-11-01 05:29:00,People protest against new tax policies.,404,positive,606.0
+1636,2025-10-30 07:45:00,Critics claim the government failed to control inflation.,307,negative,153.5
+1637,2025-10-31 12:04:00,Opposition slams government for ignoring farmers.,300,neutral,300.0
+1638,2025-11-01 02:50:00,People protest against new tax policies.,253,positive,379.5
+1639,2025-10-29 02:51:00,People protest against new tax policies.,310,positive,465.0
+1640,2025-10-30 08:01:00,Opposition criticizes the government over unemployment.,377,neutral,377.0
+1641,2025-11-01 15:04:00,Critics say the administration lacks transparency.,60,neutral,60.0
+1642,2025-10-30 11:47:00,Critics say the administration lacks transparency.,45,neutral,45.0
+1643,2025-10-31 05:24:00,Rising fuel prices anger citizens across states.,265,negative,132.5
+1644,2025-10-28 19:26:00,Youth unhappy with limited job opportunities.,235,negative,117.5
+1645,2025-10-28 21:12:00,Public disappointed by the delay in welfare delivery.,313,negative,156.5
+1646,2025-11-01 20:32:00,Citizens frustrated over corruption allegations.,221,negative,110.5
+1647,2025-11-02 06:02:00,Critics say the administration lacks transparency.,168,neutral,168.0
+1648,2025-10-31 23:31:00,Public disappointed by the delay in welfare delivery.,456,negative,228.0
+1649,2025-11-02 05:30:00,People express anger over the recent budget cuts.,474,negative,237.0
+1650,2025-10-28 16:59:00,Critics say the administration lacks transparency.,312,neutral,312.0
+1651,2025-11-02 07:19:00,Rising fuel prices anger citizens across states.,455,negative,227.5
+1652,2025-11-02 04:17:00,Critics claim the government failed to control inflation.,441,negative,220.5
+1653,2025-10-29 23:39:00,People express anger over the recent budget cuts.,455,negative,227.5
+1654,2025-10-31 13:52:00,Critics say the administration lacks transparency.,274,neutral,274.0
+1655,2025-10-30 07:59:00,Youth unhappy with limited job opportunities.,410,negative,205.0
+1656,2025-10-30 15:34:00,Public disappointed by the delay in welfare delivery.,224,negative,112.0
+1657,2025-10-29 17:16:00,Public disappointed by the delay in welfare delivery.,124,negative,62.0
+1658,2025-10-28 20:58:00,Citizens frustrated over corruption allegations.,286,negative,143.0
+1659,2025-10-28 18:46:00,People protest against new tax policies.,341,positive,511.5
+1660,2025-10-31 02:19:00,Critics claim the government failed to control inflation.,200,negative,100.0
+1661,2025-10-29 13:15:00,People express anger over the recent budget cuts.,225,negative,112.5
+1662,2025-11-01 09:02:00,Citizens frustrated over corruption allegations.,467,negative,233.5
+1663,2025-10-29 18:37:00,Rising fuel prices anger citizens across states.,51,negative,25.5
+1664,2025-10-30 12:45:00,Citizens frustrated over corruption allegations.,461,negative,230.5
+1665,2025-10-30 03:45:00,Citizens frustrated over corruption allegations.,50,negative,25.0
+1666,2025-10-31 16:06:00,Opposition slams government for ignoring farmers.,124,neutral,124.0
+1667,2025-10-31 07:56:00,BJP released its new policy manifesto.,22,positive,33.0
+1668,2025-10-28 13:32:00,Prime Minister met foreign delegates at event.,266,negative,133.0
+1669,2025-10-30 11:24:00,Congress held a rally in Delhi on Monday.,145,neutral,145.0
+1670,2025-11-01 03:49:00,Prime Minister met foreign delegates at event.,220,negative,110.0
+1671,2025-10-31 05:41:00,The Election Commission announced polling dates.,476,neutral,476.0
+1672,2025-10-28 15:18:00,Rahul Gandhi addressed students in Karnataka.,32,neutral,32.0
+1673,2025-11-02 04:34:00,Parliament session scheduled for next week.,433,neutral,433.0
+1674,2025-10-29 03:54:00,PM Modi delivers speech at national summit.,216,neutral,216.0
+1675,2025-10-29 04:16:00,Congress held a rally in Delhi on Monday.,122,neutral,122.0
+1676,2025-10-31 11:19:00,Prime Minister met foreign delegates at event.,219,negative,109.5
+1677,2025-11-02 07:12:00,Parliament session scheduled for next week.,41,neutral,41.0
+1678,2025-11-01 19:49:00,Parliament session scheduled for next week.,225,neutral,225.0
+1679,2025-11-01 14:08:00,Prime Minister met foreign delegates at event.,280,negative,140.0
+1680,2025-10-30 07:23:00,Prime Minister met foreign delegates at event.,378,negative,189.0
+1681,2025-10-31 19:39:00,The Election Commission announced polling dates.,23,neutral,23.0
+1682,2025-10-31 10:08:00,Prime Minister met foreign delegates at event.,170,negative,85.0
+1683,2025-10-30 12:13:00,Finance Minister presented the annual report today.,394,neutral,394.0
+1684,2025-10-29 01:10:00,Media reports highlight upcoming election campaigns.,83,neutral,83.0
+1685,2025-10-30 13:18:00,Congress held a rally in Delhi on Monday.,378,neutral,378.0
+1686,2025-10-31 16:00:00,Prime Minister met foreign delegates at event.,149,negative,74.5
+1687,2025-10-28 10:01:00,Government announced new road development projects.,109,positive,163.5
+1688,2025-10-31 06:40:00,Parliament session scheduled for next week.,217,neutral,217.0
+1689,2025-10-29 14:14:00,Rahul Gandhi addressed students in Karnataka.,325,neutral,325.0
+1690,2025-10-29 02:22:00,BJP released its new policy manifesto.,196,positive,294.0
+1691,2025-10-29 15:50:00,Prime Minister met foreign delegates at event.,203,negative,101.5
+1692,2025-10-30 09:59:00,PM Modi delivers speech at national summit.,306,neutral,306.0
+1693,2025-10-29 05:28:00,PM Modi delivers speech at national summit.,459,neutral,459.0
+1694,2025-10-31 07:48:00,Prime Minister met foreign delegates at event.,391,negative,195.5
+1695,2025-11-01 22:20:00,Rahul Gandhi addressed students in Karnataka.,61,neutral,61.0
+1696,2025-10-29 12:47:00,PM Modi delivers speech at national summit.,441,neutral,441.0
+1697,2025-10-30 23:15:00,PM Modi delivers speech at national summit.,252,neutral,252.0
+1698,2025-10-30 13:04:00,The Election Commission announced polling dates.,331,neutral,331.0
+1699,2025-10-28 21:01:00,Prime Minister met foreign delegates at event.,30,negative,15.0
+1700,2025-11-01 07:51:00,Rahul Gandhi addressed students in Karnataka.,476,neutral,476.0
+1701,2025-10-31 00:47:00,Rahul Gandhi addressed students in Karnataka.,267,neutral,267.0
+1702,2025-11-01 13:24:00,Congress held a rally in Delhi on Monday.,260,neutral,260.0
+1703,2025-10-28 13:36:00,Prime Minister met foreign delegates at event.,227,negative,113.5
+1704,2025-10-29 16:36:00,Government announced new road development projects.,261,positive,391.5
+1705,2025-10-31 03:46:00,BJP released its new policy manifesto.,221,positive,331.5
+1706,2025-10-31 09:56:00,The Election Commission announced polling dates.,195,neutral,195.0
+1707,2025-11-01 23:36:00,PM Modi delivers speech at national summit.,482,neutral,482.0
+1708,2025-10-30 11:59:00,Government announced new road development projects.,274,positive,411.0
+1709,2025-11-01 03:02:00,Congress held a rally in Delhi on Monday.,195,neutral,195.0
+1710,2025-10-31 00:44:00,Parliament session scheduled for next week.,366,neutral,366.0
+1711,2025-10-30 11:52:00,The Election Commission announced polling dates.,181,neutral,181.0
+1712,2025-10-31 00:27:00,Media reports highlight upcoming election campaigns.,151,neutral,151.0
+1713,2025-11-01 08:11:00,Government announced new road development projects.,115,positive,172.5
+1714,2025-10-28 18:49:00,Prime Minister met foreign delegates at event.,433,negative,216.5
+1715,2025-11-01 12:19:00,Prime Minister met foreign delegates at event.,353,negative,176.5
+1716,2025-10-30 18:48:00,Parliament session scheduled for next week.,307,neutral,307.0
+1717,2025-11-01 08:22:00,Rahul Gandhi addressed students in Karnataka.,201,neutral,201.0
+1718,2025-10-30 04:58:00,Media reports highlight upcoming election campaigns.,397,neutral,397.0
+1719,2025-11-01 01:25:00,The Election Commission announced polling dates.,120,neutral,120.0
+1720,2025-10-29 19:45:00,Congress held a rally in Delhi on Monday.,226,neutral,226.0
+1721,2025-10-31 03:02:00,Media reports highlight upcoming election campaigns.,449,neutral,449.0
+1722,2025-10-28 15:52:00,Congress held a rally in Delhi on Monday.,165,neutral,165.0
+1723,2025-10-29 23:50:00,The Election Commission announced polling dates.,97,neutral,97.0
+1724,2025-10-29 17:14:00,BJP released its new policy manifesto.,34,positive,51.0
+1725,2025-10-28 14:47:00,Congress held a rally in Delhi on Monday.,283,neutral,283.0
+1726,2025-10-28 11:34:00,Parliament session scheduled for next week.,104,neutral,104.0
+1727,2025-10-29 19:59:00,Prime Minister met foreign delegates at event.,413,negative,206.5
+1728,2025-10-30 19:26:00,Parliament session scheduled for next week.,291,neutral,291.0
+1729,2025-11-01 19:45:00,The Election Commission announced polling dates.,110,neutral,110.0
+1730,2025-10-30 02:49:00,BJP released its new policy manifesto.,158,positive,237.0
+1731,2025-10-29 01:34:00,Congress held a rally in Delhi on Monday.,297,neutral,297.0
+1732,2025-10-29 21:40:00,Rahul Gandhi addressed students in Karnataka.,432,neutral,432.0
+1733,2025-10-30 10:30:00,PM Modi delivers speech at national summit.,419,neutral,419.0
+1734,2025-10-30 20:16:00,Media reports highlight upcoming election campaigns.,441,neutral,441.0
+1735,2025-10-30 10:10:00,Finance Minister presented the annual report today.,197,neutral,197.0
+1736,2025-10-28 09:38:00,Congress held a rally in Delhi on Monday.,61,neutral,61.0
+1737,2025-11-02 04:06:00,Government announced new road development projects.,178,positive,267.0
+1738,2025-11-01 19:35:00,Parliament session scheduled for next week.,157,neutral,157.0
+1739,2025-11-02 01:50:00,Finance Minister presented the annual report today.,102,neutral,102.0
+1740,2025-10-30 22:53:00,Prime Minister met foreign delegates at event.,36,negative,18.0
+1741,2025-10-31 20:52:00,Media reports highlight upcoming election campaigns.,96,neutral,96.0
+1742,2025-10-30 20:10:00,Government announced new road development projects.,87,positive,130.5
+1743,2025-10-31 02:01:00,The Election Commission announced polling dates.,326,neutral,326.0
+1744,2025-10-30 09:19:00,BJP released its new policy manifesto.,464,positive,696.0
+1745,2025-10-31 13:31:00,The Election Commission announced polling dates.,314,neutral,314.0
+1746,2025-10-31 16:50:00,Prime Minister met foreign delegates at event.,28,negative,14.0
+1747,2025-10-31 08:38:00,Finance Minister presented the annual report today.,308,neutral,308.0
+1748,2025-10-29 04:11:00,The Election Commission announced polling dates.,167,neutral,167.0
+1749,2025-10-29 21:55:00,PM Modi delivers speech at national summit.,153,neutral,153.0
+1750,2025-10-31 06:47:00,Prime Minister met foreign delegates at event.,201,negative,100.5
+1751,2025-11-01 18:02:00,Prime Minister met foreign delegates at event.,39,negative,19.5
+1752,2025-10-31 00:29:00,Rahul Gandhi addressed students in Karnataka.,220,neutral,220.0
+1753,2025-11-01 23:59:00,The Election Commission announced polling dates.,493,neutral,493.0
+1754,2025-10-28 15:30:00,Government announced new road development projects.,335,positive,502.5
+1755,2025-11-01 05:10:00,BJP released its new policy manifesto.,470,positive,705.0
+1756,2025-10-31 23:34:00,Congress held a rally in Delhi on Monday.,173,neutral,173.0
+1757,2025-10-30 07:59:00,Media reports highlight upcoming election campaigns.,295,neutral,295.0
+1758,2025-11-01 22:15:00,Government announced new road development projects.,399,positive,598.5
+1759,2025-10-31 18:08:00,Congress held a rally in Delhi on Monday.,455,neutral,455.0
+1760,2025-11-02 07:10:00,The Election Commission announced polling dates.,99,neutral,99.0
+1761,2025-10-28 09:24:00,PM Modi delivers speech at national summit.,225,neutral,225.0
+1762,2025-11-01 01:21:00,Government announced new road development projects.,176,positive,264.0
+1763,2025-11-02 02:24:00,Rahul Gandhi addressed students in Karnataka.,114,neutral,114.0
+1764,2025-10-31 04:00:00,Government announced new road development projects.,430,positive,645.0
+1765,2025-10-31 03:40:00,Media reports highlight upcoming election campaigns.,162,neutral,162.0
+1766,2025-10-31 08:20:00,BJP released its new policy manifesto.,320,positive,480.0
+1767,2025-10-28 22:39:00,The Election Commission announced polling dates.,321,neutral,321.0
+1768,2025-10-28 12:22:00,Congress held a rally in Delhi on Monday.,439,neutral,439.0
+1769,2025-11-01 21:17:00,Parliament session scheduled for next week.,308,neutral,308.0
+1770,2025-10-28 23:46:00,Prime Minister met foreign delegates at event.,21,negative,10.5
+1771,2025-10-31 02:37:00,Rahul Gandhi addressed students in Karnataka.,265,neutral,265.0
+1772,2025-10-30 22:30:00,BJP released its new policy manifesto.,203,positive,304.5
+1773,2025-11-01 03:51:00,Finance Minister presented the annual report today.,229,neutral,229.0
+1774,2025-10-31 17:59:00,Finance Minister presented the annual report today.,116,neutral,116.0
+1775,2025-10-29 21:26:00,Media reports highlight upcoming election campaigns.,235,neutral,235.0
+1776,2025-10-31 23:35:00,Prime Minister met foreign delegates at event.,157,negative,78.5
+1777,2025-10-31 22:09:00,Media reports highlight upcoming election campaigns.,310,neutral,310.0
+1778,2025-11-01 18:41:00,Parliament session scheduled for next week.,362,neutral,362.0
+1779,2025-11-01 09:20:00,Finance Minister presented the annual report today.,219,neutral,219.0
+1780,2025-10-31 11:06:00,Government announced new road development projects.,447,positive,670.5
+1781,2025-10-31 18:01:00,Media reports highlight upcoming election campaigns.,132,neutral,132.0
+1782,2025-10-31 14:33:00,Government announced new road development projects.,117,positive,175.5
+1783,2025-11-01 17:26:00,Government announced new road development projects.,387,positive,580.5
+1784,2025-10-28 12:34:00,Parliament session scheduled for next week.,406,neutral,406.0
+1785,2025-10-31 12:28:00,Rahul Gandhi addressed students in Karnataka.,226,neutral,226.0
+1786,2025-10-31 19:12:00,The Election Commission announced polling dates.,246,neutral,246.0
+1787,2025-11-01 23:15:00,BJP released its new policy manifesto.,324,positive,486.0
+1788,2025-10-31 21:09:00,Parliament session scheduled for next week.,186,neutral,186.0
+1789,2025-11-01 01:29:00,BJP released its new policy manifesto.,75,positive,112.5
+1790,2025-11-01 09:23:00,Prime Minister met foreign delegates at event.,457,negative,228.5
+1791,2025-10-31 08:24:00,PM Modi delivers speech at national summit.,32,neutral,32.0
+1792,2025-10-29 13:35:00,Parliament session scheduled for next week.,118,neutral,118.0
+1793,2025-10-28 12:02:00,Congress held a rally in Delhi on Monday.,440,neutral,440.0
+1794,2025-10-30 17:49:00,PM Modi delivers speech at national summit.,265,neutral,265.0
+1795,2025-10-31 22:21:00,BJP released its new policy manifesto.,428,positive,642.0
+1796,2025-11-01 04:58:00,Government announced new road development projects.,41,positive,61.5
+1797,2025-10-31 23:04:00,Finance Minister presented the annual report today.,459,neutral,459.0
+1798,2025-10-30 07:52:00,Rahul Gandhi addressed students in Karnataka.,133,neutral,133.0
+1799,2025-10-28 09:44:00,Media reports highlight upcoming election campaigns.,330,neutral,330.0
+1800,2025-10-30 20:18:00,Rahul Gandhi addressed students in Karnataka.,287,neutral,287.0
+1801,2025-10-30 14:15:00,Rahul Gandhi addressed students in Karnataka.,289,neutral,289.0
+1802,2025-10-30 02:56:00,BJP released its new policy manifesto.,274,positive,411.0
+1803,2025-10-29 12:19:00,BJP released its new policy manifesto.,454,positive,681.0
+1804,2025-11-01 13:03:00,BJP released its new policy manifesto.,458,positive,687.0
+1805,2025-10-31 14:47:00,The Election Commission announced polling dates.,359,neutral,359.0
+1806,2025-10-29 00:30:00,The Election Commission announced polling dates.,73,neutral,73.0
+1807,2025-10-28 18:48:00,Rahul Gandhi addressed students in Karnataka.,337,neutral,337.0
+1808,2025-10-29 05:10:00,Government announced new road development projects.,332,positive,498.0
+1809,2025-11-02 07:08:00,Government announced new road development projects.,163,positive,244.5
+1810,2025-10-29 07:47:00,PM Modi delivers speech at national summit.,163,neutral,163.0
+1811,2025-10-29 18:27:00,Prime Minister met foreign delegates at event.,479,negative,239.5
+1812,2025-11-02 07:48:00,PM Modi delivers speech at national summit.,279,neutral,279.0
+1813,2025-10-31 18:33:00,PM Modi delivers speech at national summit.,423,neutral,423.0
+1814,2025-11-02 02:15:00,BJP released its new policy manifesto.,254,positive,381.0
+1815,2025-10-29 12:45:00,Government announced new road development projects.,334,positive,501.0
+1816,2025-10-30 10:48:00,The Election Commission announced polling dates.,102,neutral,102.0
+1817,2025-10-29 04:21:00,Congress held a rally in Delhi on Monday.,414,neutral,414.0
+1818,2025-11-01 17:49:00,Prime Minister met foreign delegates at event.,142,negative,71.0
+1819,2025-10-31 07:31:00,Finance Minister presented the annual report today.,338,neutral,338.0
+1820,2025-10-31 02:57:00,Parliament session scheduled for next week.,70,neutral,70.0
+1821,2025-10-29 17:48:00,PM Modi delivers speech at national summit.,118,neutral,118.0
+1822,2025-10-31 10:30:00,The Election Commission announced polling dates.,272,neutral,272.0
+1823,2025-11-01 11:31:00,Rahul Gandhi addressed students in Karnataka.,25,neutral,25.0
+1824,2025-10-28 11:48:00,Finance Minister presented the annual report today.,452,neutral,452.0
+1825,2025-10-30 03:01:00,Finance Minister presented the annual report today.,368,neutral,368.0
+1826,2025-10-30 21:42:00,The Election Commission announced polling dates.,419,neutral,419.0
+1827,2025-10-30 19:40:00,Government announced new road development projects.,74,positive,111.0
+1828,2025-10-31 15:34:00,Government announced new road development projects.,129,positive,193.5
+1829,2025-11-01 01:48:00,Finance Minister presented the annual report today.,265,neutral,265.0
+1830,2025-11-01 04:16:00,Finance Minister presented the annual report today.,349,neutral,349.0
+1831,2025-11-02 06:01:00,The Election Commission announced polling dates.,422,neutral,422.0
+1832,2025-11-01 22:31:00,PM Modi delivers speech at national summit.,109,neutral,109.0
+1833,2025-10-29 10:48:00,Government announced new road development projects.,200,positive,300.0
+1834,2025-10-30 04:51:00,BJP released its new policy manifesto.,403,positive,604.5
+1835,2025-11-01 12:31:00,Media reports highlight upcoming election campaigns.,280,neutral,280.0
+1836,2025-10-31 10:27:00,PM Modi delivers speech at national summit.,55,neutral,55.0
+1837,2025-10-31 18:57:00,Government announced new road development projects.,269,positive,403.5
+1838,2025-10-29 00:07:00,Prime Minister met foreign delegates at event.,172,negative,86.0
+1839,2025-10-28 21:55:00,Prime Minister met foreign delegates at event.,437,negative,218.5
+1840,2025-11-01 21:36:00,Finance Minister presented the annual report today.,153,neutral,153.0
+1841,2025-11-01 06:38:00,Congress held a rally in Delhi on Monday.,114,neutral,114.0
+1842,2025-10-29 10:18:00,Finance Minister presented the annual report today.,238,neutral,238.0
+1843,2025-10-31 08:45:00,Parliament session scheduled for next week.,147,neutral,147.0
+1844,2025-10-31 16:25:00,PM Modi delivers speech at national summit.,155,neutral,155.0
+1845,2025-10-30 07:44:00,Congress held a rally in Delhi on Monday.,363,neutral,363.0
+1846,2025-10-29 11:50:00,Media reports highlight upcoming election campaigns.,155,neutral,155.0
+1847,2025-10-31 12:52:00,Parliament session scheduled for next week.,500,neutral,500.0
+1848,2025-10-28 18:03:00,PM Modi delivers speech at national summit.,289,neutral,289.0
+1849,2025-11-02 04:53:00,Rahul Gandhi addressed students in Karnataka.,31,neutral,31.0
+1850,2025-10-29 06:58:00,Rahul Gandhi addressed students in Karnataka.,365,neutral,365.0
+1851,2025-11-01 10:43:00,Finance Minister presented the annual report today.,403,neutral,403.0
+1852,2025-11-01 07:37:00,BJP released its new policy manifesto.,483,positive,724.5
+1853,2025-10-28 17:35:00,The Election Commission announced polling dates.,137,neutral,137.0
+1854,2025-10-30 21:17:00,The Election Commission announced polling dates.,393,neutral,393.0
+1855,2025-10-31 15:46:00,Finance Minister presented the annual report today.,384,neutral,384.0
+1856,2025-10-28 19:02:00,Parliament session scheduled for next week.,360,neutral,360.0
+1857,2025-10-28 16:58:00,Parliament session scheduled for next week.,161,neutral,161.0
+1858,2025-10-28 09:33:00,The Election Commission announced polling dates.,382,neutral,382.0
+1859,2025-10-29 22:32:00,Congress held a rally in Delhi on Monday.,88,neutral,88.0
+1860,2025-11-01 13:39:00,BJP released its new policy manifesto.,374,positive,561.0
+1861,2025-10-30 10:54:00,Prime Minister met foreign delegates at event.,349,negative,174.5
+1862,2025-11-01 01:39:00,BJP released its new policy manifesto.,487,positive,730.5
+1863,2025-11-01 18:05:00,BJP released its new policy manifesto.,158,positive,237.0
+1864,2025-10-31 23:53:00,Finance Minister presented the annual report today.,56,neutral,56.0
+1865,2025-11-01 14:13:00,Government announced new road development projects.,32,positive,48.0
+1866,2025-11-01 13:21:00,Prime Minister met foreign delegates at event.,137,negative,68.5
+1867,2025-11-01 19:29:00,Prime Minister met foreign delegates at event.,98,negative,49.0
+1868,2025-10-28 21:36:00,Finance Minister presented the annual report today.,427,neutral,427.0
+1869,2025-10-29 21:32:00,Finance Minister presented the annual report today.,405,neutral,405.0
+1870,2025-11-01 19:27:00,The Election Commission announced polling dates.,20,neutral,20.0
+1871,2025-10-28 17:33:00,Parliament session scheduled for next week.,117,neutral,117.0
+1872,2025-11-01 16:30:00,Finance Minister presented the annual report today.,358,neutral,358.0
+1873,2025-10-29 03:50:00,PM Modi delivers speech at national summit.,168,neutral,168.0
+1874,2025-10-29 16:21:00,Congress held a rally in Delhi on Monday.,240,neutral,240.0
+1875,2025-10-29 10:15:00,Rahul Gandhi addressed students in Karnataka.,439,neutral,439.0
+1876,2025-10-31 16:31:00,Prime Minister met foreign delegates at event.,233,negative,116.5
+1877,2025-10-29 20:05:00,BJP released its new policy manifesto.,195,positive,292.5
+1878,2025-10-28 20:48:00,Media reports highlight upcoming election campaigns.,97,neutral,97.0
+1879,2025-10-28 12:49:00,Congress held a rally in Delhi on Monday.,83,neutral,83.0
+1880,2025-10-29 23:58:00,Parliament session scheduled for next week.,451,neutral,451.0
+1881,2025-11-01 08:22:00,Finance Minister presented the annual report today.,238,neutral,238.0
+1882,2025-10-30 13:23:00,Parliament session scheduled for next week.,349,neutral,349.0
+1883,2025-10-31 05:17:00,Media reports highlight upcoming election campaigns.,211,neutral,211.0
+1884,2025-11-01 14:24:00,Rahul Gandhi addressed students in Karnataka.,380,neutral,380.0
+1885,2025-10-31 07:12:00,BJP released its new policy manifesto.,320,positive,480.0
+1886,2025-10-28 19:25:00,Congress held a rally in Delhi on Monday.,89,neutral,89.0
+1887,2025-10-30 16:20:00,Prime Minister met foreign delegates at event.,86,negative,43.0
+1888,2025-10-31 07:17:00,The Election Commission announced polling dates.,11,neutral,11.0
+1889,2025-10-30 19:30:00,Congress held a rally in Delhi on Monday.,398,neutral,398.0
+1890,2025-10-29 10:55:00,BJP released its new policy manifesto.,77,positive,115.5
+1891,2025-11-01 01:12:00,Congress held a rally in Delhi on Monday.,259,neutral,259.0
+1892,2025-10-28 10:30:00,Rahul Gandhi addressed students in Karnataka.,46,neutral,46.0
+1893,2025-10-28 09:39:00,Rahul Gandhi addressed students in Karnataka.,159,neutral,159.0
+1894,2025-10-29 23:51:00,PM Modi delivers speech at national summit.,419,neutral,419.0
+1895,2025-10-30 15:28:00,Media reports highlight upcoming election campaigns.,448,neutral,448.0
+1896,2025-11-01 05:15:00,BJP released its new policy manifesto.,71,positive,106.5
+1897,2025-10-28 11:26:00,Congress held a rally in Delhi on Monday.,209,neutral,209.0
+1898,2025-11-01 00:23:00,Congress held a rally in Delhi on Monday.,145,neutral,145.0
+1899,2025-11-01 06:26:00,Government announced new road development projects.,420,positive,630.0
+1900,2025-10-30 13:45:00,Rahul Gandhi addressed students in Karnataka.,181,neutral,181.0
+1901,2025-10-30 14:13:00,Congress held a rally in Delhi on Monday.,305,neutral,305.0
+1902,2025-10-31 07:57:00,Government announced new road development projects.,295,positive,442.5
+1903,2025-10-29 22:19:00,Rahul Gandhi addressed students in Karnataka.,37,neutral,37.0
+1904,2025-10-31 14:49:00,Media reports highlight upcoming election campaigns.,473,neutral,473.0
+1905,2025-10-30 20:06:00,PM Modi delivers speech at national summit.,346,neutral,346.0
+1906,2025-10-29 23:45:00,Parliament session scheduled for next week.,18,neutral,18.0
+1907,2025-11-02 04:02:00,PM Modi delivers speech at national summit.,112,neutral,112.0
+1908,2025-11-02 04:46:00,Rahul Gandhi addressed students in Karnataka.,471,neutral,471.0
+1909,2025-10-29 14:02:00,Government announced new road development projects.,362,positive,543.0
+1910,2025-10-28 09:35:00,PM Modi delivers speech at national summit.,390,neutral,390.0
+1911,2025-11-01 00:29:00,Finance Minister presented the annual report today.,338,neutral,338.0
+1912,2025-10-30 04:20:00,Congress held a rally in Delhi on Monday.,435,neutral,435.0
+1913,2025-11-01 23:48:00,Finance Minister presented the annual report today.,488,neutral,488.0
+1914,2025-10-30 09:31:00,Parliament session scheduled for next week.,463,neutral,463.0
+1915,2025-10-30 07:43:00,The Election Commission announced polling dates.,482,neutral,482.0
+1916,2025-11-02 05:06:00,Media reports highlight upcoming election campaigns.,313,neutral,313.0
+1917,2025-10-29 03:03:00,Rahul Gandhi addressed students in Karnataka.,430,neutral,430.0
+1918,2025-11-01 08:46:00,BJP released its new policy manifesto.,306,positive,459.0
+1919,2025-11-02 08:47:00,PM Modi delivers speech at national summit.,381,neutral,381.0
+1920,2025-11-01 01:36:00,Parliament session scheduled for next week.,243,neutral,243.0
+1921,2025-10-31 04:16:00,PM Modi delivers speech at national summit.,445,neutral,445.0
+1922,2025-11-01 18:12:00,Finance Minister presented the annual report today.,430,neutral,430.0
+1923,2025-10-28 20:45:00,BJP released its new policy manifesto.,303,positive,454.5
+1924,2025-11-01 22:46:00,Congress held a rally in Delhi on Monday.,232,neutral,232.0
+1925,2025-11-02 03:34:00,Prime Minister met foreign delegates at event.,146,negative,73.0
+1926,2025-10-29 16:20:00,The Election Commission announced polling dates.,264,neutral,264.0
+1927,2025-11-01 03:27:00,Congress held a rally in Delhi on Monday.,63,neutral,63.0
+1928,2025-10-30 15:59:00,BJP released its new policy manifesto.,101,positive,151.5
+1929,2025-10-28 15:13:00,PM Modi delivers speech at national summit.,72,neutral,72.0
+1930,2025-10-31 13:45:00,Government announced new road development projects.,258,positive,387.0
+1931,2025-10-29 06:46:00,Prime Minister met foreign delegates at event.,34,negative,17.0
+1932,2025-10-28 22:54:00,Finance Minister presented the annual report today.,231,neutral,231.0
+1933,2025-10-30 01:18:00,Parliament session scheduled for next week.,232,neutral,232.0
+1934,2025-10-30 04:25:00,Prime Minister met foreign delegates at event.,53,negative,26.5
+1935,2025-11-02 06:53:00,The Election Commission announced polling dates.,36,neutral,36.0
+1936,2025-10-31 10:45:00,Media reports highlight upcoming election campaigns.,103,neutral,103.0
+1937,2025-11-01 01:18:00,BJP released its new policy manifesto.,167,positive,250.5
+1938,2025-11-01 11:06:00,BJP released its new policy manifesto.,301,positive,451.5
+1939,2025-10-31 23:13:00,Congress held a rally in Delhi on Monday.,324,neutral,324.0
+1940,2025-11-02 07:45:00,Rahul Gandhi addressed students in Karnataka.,366,neutral,366.0
+1941,2025-10-30 13:47:00,Prime Minister met foreign delegates at event.,363,negative,181.5
+1942,2025-10-29 04:39:00,PM Modi delivers speech at national summit.,397,neutral,397.0
+1943,2025-10-29 14:14:00,Finance Minister presented the annual report today.,150,neutral,150.0
+1944,2025-10-29 19:59:00,Congress held a rally in Delhi on Monday.,29,neutral,29.0
+1945,2025-10-28 15:11:00,Parliament session scheduled for next week.,127,neutral,127.0
+1946,2025-10-30 04:49:00,PM Modi delivers speech at national summit.,422,neutral,422.0
+1947,2025-10-29 13:07:00,PM Modi delivers speech at national summit.,338,neutral,338.0
+1948,2025-10-31 19:14:00,Media reports highlight upcoming election campaigns.,90,neutral,90.0
+1949,2025-10-31 21:11:00,Parliament session scheduled for next week.,219,neutral,219.0
+1950,2025-11-02 05:21:00,Media reports highlight upcoming election campaigns.,490,neutral,490.0
+1951,2025-10-31 09:11:00,Media reports highlight upcoming election campaigns.,404,neutral,404.0
+1952,2025-10-30 23:12:00,Government announced new road development projects.,155,positive,232.5
+1953,2025-10-28 11:42:00,PM Modi delivers speech at national summit.,231,neutral,231.0
+1954,2025-10-31 18:11:00,Congress held a rally in Delhi on Monday.,83,neutral,83.0
+1955,2025-10-30 13:50:00,Parliament session scheduled for next week.,61,neutral,61.0
+1956,2025-11-01 00:29:00,PM Modi delivers speech at national summit.,103,neutral,103.0
+1957,2025-10-29 12:22:00,Rahul Gandhi addressed students in Karnataka.,192,neutral,192.0
+1958,2025-11-01 11:20:00,Rahul Gandhi addressed students in Karnataka.,68,neutral,68.0
+1959,2025-11-01 03:06:00,Media reports highlight upcoming election campaigns.,218,neutral,218.0
+1960,2025-10-30 10:42:00,BJP released its new policy manifesto.,141,positive,211.5
+1961,2025-11-02 07:58:00,Finance Minister presented the annual report today.,474,neutral,474.0
+1962,2025-11-01 13:20:00,Prime Minister met foreign delegates at event.,456,negative,228.0
+1963,2025-10-30 06:03:00,BJP released its new policy manifesto.,163,positive,244.5
+1964,2025-10-29 01:18:00,Rahul Gandhi addressed students in Karnataka.,355,neutral,355.0
+1965,2025-10-31 19:05:00,BJP released its new policy manifesto.,247,positive,370.5
+1966,2025-10-29 06:06:00,Congress held a rally in Delhi on Monday.,278,neutral,278.0
+1967,2025-10-31 18:44:00,The Election Commission announced polling dates.,425,neutral,425.0
+1968,2025-11-01 22:15:00,The Election Commission announced polling dates.,364,neutral,364.0
+1969,2025-10-29 14:43:00,Prime Minister met foreign delegates at event.,409,negative,204.5
+1970,2025-10-28 22:53:00,The Election Commission announced polling dates.,412,neutral,412.0
+1971,2025-10-30 15:19:00,Finance Minister presented the annual report today.,129,neutral,129.0
+1972,2025-10-30 19:16:00,The Election Commission announced polling dates.,300,neutral,300.0
+1973,2025-11-02 06:05:00,Media reports highlight upcoming election campaigns.,24,neutral,24.0
+1974,2025-10-28 16:47:00,Finance Minister presented the annual report today.,317,neutral,317.0
+1975,2025-11-02 05:50:00,Congress held a rally in Delhi on Monday.,145,neutral,145.0
+1976,2025-11-01 04:17:00,Government announced new road development projects.,446,positive,669.0
+1977,2025-10-28 09:11:00,BJP released its new policy manifesto.,144,positive,216.0
+1978,2025-11-01 03:49:00,Media reports highlight upcoming election campaigns.,214,neutral,214.0
+1979,2025-10-29 10:06:00,Media reports highlight upcoming election campaigns.,278,neutral,278.0
+1980,2025-10-29 00:17:00,Rahul Gandhi addressed students in Karnataka.,73,neutral,73.0
+1981,2025-11-01 17:38:00,Parliament session scheduled for next week.,469,neutral,469.0
+1982,2025-11-02 01:27:00,Congress held a rally in Delhi on Monday.,353,neutral,353.0
+1983,2025-10-29 05:01:00,Congress held a rally in Delhi on Monday.,13,neutral,13.0
+1984,2025-10-30 01:44:00,Rahul Gandhi addressed students in Karnataka.,498,neutral,498.0
+1985,2025-10-29 00:28:00,Government announced new road development projects.,126,positive,189.0
+1986,2025-10-30 01:58:00,PM Modi delivers speech at national summit.,331,neutral,331.0
+1987,2025-10-28 18:53:00,Government announced new road development projects.,22,positive,33.0
+1988,2025-10-29 16:51:00,Rahul Gandhi addressed students in Karnataka.,294,neutral,294.0
+1989,2025-10-30 12:47:00,Government announced new road development projects.,264,positive,396.0
+1990,2025-10-31 15:51:00,Finance Minister presented the annual report today.,420,neutral,420.0
+1991,2025-10-29 07:13:00,Rahul Gandhi addressed students in Karnataka.,369,neutral,369.0
+1992,2025-10-29 13:20:00,Government announced new road development projects.,474,positive,711.0
+1993,2025-10-30 09:43:00,Finance Minister presented the annual report today.,338,neutral,338.0
+1994,2025-11-02 08:09:00,Congress held a rally in Delhi on Monday.,268,neutral,268.0
+1995,2025-11-01 14:18:00,Rahul Gandhi addressed students in Karnataka.,96,neutral,96.0
+1996,2025-10-30 23:12:00,The Election Commission announced polling dates.,165,neutral,165.0
+1997,2025-10-28 19:34:00,Congress held a rally in Delhi on Monday.,392,neutral,392.0
+1998,2025-10-30 02:20:00,BJP released its new policy manifesto.,472,positive,708.0
+1999,2025-10-29 02:48:00,Media reports highlight upcoming election campaigns.,437,neutral,437.0
+1146,2025-10-30 22:47:00,Healthcare reforms are benefiting common people.,58,negative,29.0

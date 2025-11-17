@@ -1,0 +1,8 @@
+tweet,tweet_length,has_keywords,num_words,contains_link,polarity,pos_word_count,neg_word_count,predicted_sentiment
+PM Modi’s new initiative to support small farmers is receiving widespread appreciation across states.,101,1,14,0,-0.05681818181818182,0,0,positive
+Congress spokesperson questioned the transparency of the newly launched economic policy.,88,1,11,0,0.16818181818181818,0,0,positive
+Citizens are hopeful that the government’s renewable energy plan will reduce pollution and create jobs,102,0,15,0,0.0,0,0,neutral
+Opposition parties slammed the administration for the delay in implementing welfare schemes.,92,0,12,0,0.0,0,0,neutral
+Congress launches campaign focused on rural development.,56,1,7,0,0.0,0,0,neutral
+BJP celebrates successful completion of highway project.,56,1,7,0,0.75,0,0,neutral
+Modi's silence on recent protests sparks debate online.,55,1,8,0,0.0,0,0,neutral
