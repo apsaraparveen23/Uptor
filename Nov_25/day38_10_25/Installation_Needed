@@ -1,0 +1,9 @@
+pip install nltk
+pip install transformers
+pip install sentencepiece
+
+
+For some of the translator models it is expecting us to go
+
+https://github.com/google/sentencepiece#installation
+

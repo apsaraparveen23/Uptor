@@ -1,0 +1,7 @@
+pip install transformers
+
+Ensure to install the torch as well which is dependency
+
+pip install torch
+pip install tf-keras
+

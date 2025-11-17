@@ -10,7 +10,7 @@ import pandas as pd
 
 
 def train_model(df):
-    from .features import add_features
+    from .Apsara_features import add_features
 
     df = add_features(df)
     le = LabelEncoder()

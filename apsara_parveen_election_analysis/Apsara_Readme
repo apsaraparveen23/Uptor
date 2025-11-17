@@ -22,14 +22,14 @@ political_sentiment_project/
 │   ├── model.py               → Model training (Random Forest)
 │   ├── visualization.py       → Sentiment plots and charts
 │   ├── pipeline.py            → Orchestrates full ML pipeline
-│   └── model_utils.py         → Save/load model utilities
+│
 │
 ├── outputs/
 │   ├── new_tweet_predictions.csv → Predicted results for new tweets
-│   ├── model.pkl                 → Saved trained model
-│   └── label_encoder.pkl         → Saved label encoder
 │
-├── requirements.txt           → Python library dependencies
+│├── model.pkl                 → Saved trained model
+|├──  label_encoder.pkl         → Saved label encoder
+|
 └── README.txt                 → Project documentation
 
 ⚙️ Technologies Used
@@ -57,8 +57,8 @@ Joblib – Model saving/loading
  Provides REST API endpoints to analyze new tweets
 Works seamlessly with Postman
 
-🚀 How to Run the Project
-1️⃣ Setup Environment
+ How to Run the Project
+1 Setup Environment
 
 Open project folder in PyCharm.
 
@@ -68,11 +68,7 @@ python -m venv venv
 venv\Scripts\activate
 
 
-Install dependencies:
-
-pip install -r requirements.txt
-
-2️⃣ Run Flask App
+ Run Flask App
 
 Run the app with:
 
@@ -132,7 +128,7 @@ Response Example:
   ]
 }
 
-📊 Output Files
+ Output Files
 
 cleaned_df.csv → All processed tweets with sentiment & buzz score
 
@@ -142,17 +138,8 @@ model.pkl → Saved trained ML model
 
 label_encoder.pkl → Encoded sentiment label mapping
 
-🧩 Next Improvements
 
-Add single text sentiment route (/analyze_text)
-
-Integrate live Twitter API for real-time analysis
-
-Build a simple web dashboard for visualization
-
-Deploy on Render or Railway for public access
-
-👩‍💻 Author
+ Author
 
 Apsara Parveen
 Project: Political Tweet Sentiment Analysis with Flask API

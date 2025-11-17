@@ -4,11 +4,11 @@ import joblib
 import os
 
 # Import your helper functions
-from src.features import add_features
-from src.preprocessing import clean_text
-from src.sentiment import get_sentiment, compute_buzz
-from src.pipeline import run_pipeline
-from src.model import train_model
+from src.Apsara_features import add_features
+from src.Apsara_preprocessing import clean_text
+from src.Apsara_sentiment import get_sentiment, compute_buzz
+from src.Apsara_pipeline import run_pipeline
+from src.Apsara_model import train_model
 
 app = Flask(__name__)
 

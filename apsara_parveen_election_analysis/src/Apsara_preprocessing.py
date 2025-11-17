@@ -13,7 +13,7 @@ def clean_text(text):
 
 
 def load_mock_data():
-    from .sentiment import get_sentiment, compute_buzz
+    from .Apsara_sentiment import get_sentiment, compute_buzz
     current_time = datetime.now()
     mock_data = [
         {'tweet_id': '1001', 'time': current_time, 'tweet': "PM Modi's rally in Meerut drew massive crowds.", 'retweet_count': 1200},
@@ -30,8 +30,8 @@ def load_mock_data():
     return df
 
 
-def load_manual_csv(path='data/political_tweets.csv'):
-    from .sentiment import get_sentiment, compute_buzz
+def load_manual_csv(path='data/Apsara_political_tweets.csv'):
+    from .Apsara_sentiment import get_sentiment, compute_buzz
     import os
 
     if not os.path.exists(path):

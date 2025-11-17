@@ -1,0 +1,34 @@
+Stored in Apsara parveen election analysis-assignment-3 zip folders (complete details)
+
+
+1.Learn production based flask running
+1.WSGI 2.Waitress
+
+Note:we have to download this
+
+Interview:
+
+1.In which server you will be running the application of flask?
+Ans:We can either use waitress or wsgi
+
+2.Hosting
+2.1 Cloud(AWS or azure or many)
+
+Interview:
+How does it work?
+
+Create a python flask instead of running it locally qwe can use the
+same code and go to cloud and start deploying it.
+
+It will be running and it will generate  the URL,Authorization and Authentication mechanism
+
+3.How do ensure we can have good coding standard?
+use plugins like "pylint" or sonar cube
+
+preffered:pylint
+
+4.How to eliminate the issues and problem in our code(Vulnerabilities)
+
+user tools like snvk or whitesource or checkmark
+
+preferred:synk(Download and attach your github repo)

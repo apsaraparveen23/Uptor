@@ -1,11 +1,11 @@
 import os
 import pandas as pd
 import joblib
-from .preprocessing import load_manual_csv
-from .sentiment import get_sentiment, compute_buzz
-from .visualization import summarize_sentiment
-from .model import train_model
-from .features import add_features
+from .Apsara_preprocessing import load_manual_csv
+from .Apsara_sentiment import get_sentiment, compute_buzz
+from .Apsara_visualization import summarize_sentiment
+from .Apsara_model import train_model
+from .Apsara_features import add_features
 
 
 
